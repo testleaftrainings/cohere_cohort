@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="saleforceTestCase.S6_054_Add_Product">
+        <methods>
+          <include name="testCase_S6_054_Add_Product"/>
+          <include name="chromeInitiate"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saleforceTestCase.S6_054_Add_Product -->
+      <class name="saleforceTestCase.S6_013_Create_Case_Without_Mandatory_Fields">
+        <methods>
+          <include name="testCase_S6_013_Create_Case_Without_Mandatory_Fields"/>
+          <include name="chromeInitiate"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saleforceTestCase.S6_013_Create_Case_Without_Mandatory_Fields -->
+      <class name="saleforceTestCase.S6_031_verify_Dashboards_SortOrder_By_DashboardName">
+        <methods>
+          <include name="testCase_S6_031_verify_Dashboards_SortOrder_By_DashboardName"/>
+          <include name="chromeInitiate"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saleforceTestCase.S6_031_verify_Dashboards_SortOrder_By_DashboardName -->
+      <class name="saleforceTestCase.S6_025_Create_LegalEntity_Without_MandatoryFields">
+        <methods>
+          <include name="testCase_S6_025_createLegalEntityWithoutMandatoryFields"/>
+          <include name="chromeInitiate"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saleforceTestCase.S6_025_Create_LegalEntity_Without_MandatoryFields -->
+      <class name="saleforceTestCase.S6_007_DeleteWorkTypeGroup">
+        <methods>
+          <include name="chromeInitiate"/>
+          <include name="testCase_S6_007_DeleteWorkTypeGroup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saleforceTestCase.S6_007_DeleteWorkTypeGroup -->
+      <class name="saleforceTestCase.S6_053_AddProductWithOpportunity">
+        <methods>
+          <include name="testCase_S6_053_verify_AddProductWithOpportunity"/>
+          <include name="chromeInitiate"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saleforceTestCase.S6_053_AddProductWithOpportunity -->
+      <class name="saleforceTestCase.S6_048_CreateLeadFormCampaign">
+        <methods>
+          <include name="testCase_S6_048_CreateLeadFormCampaign"/>
+          <include name="chromeInitiate"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saleforceTestCase.S6_048_CreateLeadFormCampaign -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
