@@ -41,10 +41,10 @@ public class DeleteLead_49 {
         driver.findElement(By.xpath("//one-app-launcher-app-tile[@data-name='Sales']//mark[text()='Sales']")).click();
 
         // Click on Leads tab
-
+        driver.findElement(By.xpath("//a[@title='Leads']")).click();
 
         // Search for Lead with name as <your name>
-
+        driver.findElement(By.xpath(""));
 
         // Click on dropdown icon for the Lead and Select Delete
 
