@@ -14,6 +14,7 @@ import io.github.bonigarcia.wdm.webdriver.WebDriverBrowser;
 
 public class deleteAccount03 {
 	ChromeDriver driver = new ChromeDriver();
+	//commit
 
 	@Test
 	public void deleteAccMethod() throws InterruptedException {
