@@ -1,4 +1,4 @@
-package selenium;
+package Selenium;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
