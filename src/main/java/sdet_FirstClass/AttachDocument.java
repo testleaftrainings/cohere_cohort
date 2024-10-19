@@ -38,13 +38,12 @@ public class AttachDocument {
 //		campaign.click();
 		driver.executeScript("arguments[0].click();", campaign);
 
-//		driver.findElement(By.xpath("//div//a[@title='Campaigns']//span']")).click();
+
 		Thread.sleep(5000);
 		
 		driver.findElement(By.linkText("Bootcamp")).click();
 		Thread.sleep(5000);
-//		WebElement upload = driver.findElement(By.xpath("//span[text()='Upload Files']"));
-//		upload.click();
+
 		WebElement fileInput;
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		try {
