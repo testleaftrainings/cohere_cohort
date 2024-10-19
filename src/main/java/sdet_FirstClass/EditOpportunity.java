@@ -1,5 +1,9 @@
 package sdet_FirstClass;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -51,7 +55,16 @@ public class EditOpportunity {
 		closeDate.click();
 		closeDate.clear();
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//input[@name='CloseDate']")).sendKeys("13/10/2024");
+		
+		Calendar calendar = Calendar.getInstance();
+        
+        // Add one day
+        calendar.add(Calendar.DAY_OF_MONTH, 1);
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+//		Date currentDate = new Date();
+		String formattedDate = dateFormat.format(calendar.getTime());
+        System.out.println(formattedDate);
+        driver.findElement(By.xpath("//input[@name='CloseDate']")).sendKeys(formattedDate);
 		Thread.sleep(5000);
 		WebElement dropdown = driver.findElement(By.xpath("//records-record-layout-item[@field-label='Stage']//button[@role='combobox']"));
 		dropdown.click();
@@ -83,7 +96,7 @@ public class EditOpportunity {
 
 	}
 	
-//	@AfterTest
+	@AfterTest
 	public void afMethod() {
 		driver.quit();
 	}

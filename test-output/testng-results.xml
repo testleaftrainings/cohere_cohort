@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-19T02:47:22 IST" name="Default suite" finished-at="2024-10-19T02:48:15 IST" duration-ms="53278">
+  <suite started-at="2024-10-19T12:50:24 IST" name="Default suite" finished-at="2024-10-19T12:51:36 IST" duration-ms="71471">
     <groups>
     </groups>
-    <test started-at="2024-10-19T02:47:22 IST" name="Default test" finished-at="2024-10-19T02:48:15 IST" duration-ms="53278">
-      <class name="sdet_FirstClass.AttachDocument">
-        <test-method signature="deleteLegalMethod()[pri:0, instance:sdet_FirstClass.AttachDocument@1c55f277]" started-at="2024-10-19T02:47:22 IST" name="deleteLegalMethod" finished-at="2024-10-19T02:48:15 IST" duration-ms="52683" status="PASS">
+    <test started-at="2024-10-19T12:50:24 IST" name="Default test" finished-at="2024-10-19T12:51:36 IST" duration-ms="71471">
+      <class name="sdet_FirstClass.EditOpportunity">
+        <test-method signature="editOppMethod()[pri:0, instance:sdet_FirstClass.EditOpportunity@3383649e]" started-at="2024-10-19T12:50:24 IST" name="editOppMethod" finished-at="2024-10-19T12:51:35 IST" duration-ms="71119" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteLegalMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sdet_FirstClass.AttachDocument@1c55f277]" started-at="2024-10-19T02:48:15 IST" name="afterMethod" finished-at="2024-10-19T02:48:15 IST" duration-ms="554" status="PASS">
+        </test-method> <!-- editOppMethod -->
+        <test-method is-config="true" signature="afMethod()[pri:0, instance:sdet_FirstClass.EditOpportunity@3383649e]" started-at="2024-10-19T12:51:35 IST" name="afMethod" finished-at="2024-10-19T12:51:36 IST" duration-ms="326" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- sdet_FirstClass.AttachDocument -->
+        </test-method> <!-- afMethod -->
+      </class> <!-- sdet_FirstClass.EditOpportunity -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -63,8 +63,11 @@ public class AttachDocument {
 
         // Send the file path to the input element
         fileInput.sendKeys(filePath);
-        Thread.sleep(5000);
+        Thread.sleep(5000);  
         driver.findElement(By.xpath("//span[text()='Done']")).click();
+        Thread.sleep(5000);
+        driver.navigate().refresh();
+        Thread.sleep(5000);
         String actual = driver.findElement(By.xpath("//span[@title='Evidence']")).getText();
         SoftAssert sAssert = new SoftAssert();
         sAssert.assertEquals(actual, "Evidence","Attachment not present");
