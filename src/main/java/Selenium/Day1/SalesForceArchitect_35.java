@@ -1,4 +1,4 @@
-package Selenium.Day1;
+package selenium.Day1;
 
 import io.github.sukgu.Shadow;
 import org.junit.Test;

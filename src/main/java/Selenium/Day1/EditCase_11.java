@@ -1,4 +1,4 @@
-package Selenium.Day1;
+package selenium.Day1;
 
 import java.time.Duration;
 import java.util.HashMap;
