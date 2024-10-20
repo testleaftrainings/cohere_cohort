@@ -5,8 +5,8 @@
     <classes>
       <class name="sdet_FirstClass.AttachDocument">
         <methods>
-          <include name="deleteLegalMethod"/>
           <include name="afterMethod"/>
+          <include name="attachDocumentMethod"/>
         </methods>
       </class> <!-- sdet_FirstClass.AttachDocument -->
     </classes>
