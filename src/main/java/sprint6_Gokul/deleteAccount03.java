@@ -1,24 +1,34 @@
-package Sprint6_Gokul;
+package sprint6_Gokul;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
-//import io.github.bonigarcia.wdm.webdriver.WebDriverBrowser;
 
-public class deleteAccount03 {
-	ChromeDriver driver = new ChromeDriver();
+public class DeleteAccount03 {
+//	ChromeDriver driver = new ChromeDriver();
 	//commit
+	
+	static RemoteWebDriver driver ;
 
 	@Test
-	public void deleteAccMethod() throws InterruptedException {
-
+	public void deleteAccMethod() throws InterruptedException, MalformedURLException {
+		 
+		DesiredCapabilities dc = new DesiredCapabilities();
+        dc.setBrowserName("MicrosoftEdge");
+        dc.setPlatform(Platform.LINUX);
+        driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
 		driver.manage().window().maximize();
 		driver.get("https://login.salesforce.com/");
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
@@ -56,9 +66,9 @@ public class deleteAccount03 {
 		System.out.println(text);
 	}
 
-	@AfterTest
-	public void afMethod() {
-		driver.quit();
-	}
+//	@AfterTest
+//	public void afMethod() {
+//		driver.quit();
+//	}
 
 }
