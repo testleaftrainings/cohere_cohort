@@ -1,4 +1,4 @@
-package Sprint6_Gokul;
+package sprint6_Gokul;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
