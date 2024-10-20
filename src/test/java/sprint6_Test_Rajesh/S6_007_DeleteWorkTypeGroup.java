@@ -16,7 +16,7 @@ public class S6_007_DeleteWorkTypeGroup  extends BaseClass {
 	@Test(retryAnalyzer = RetryEvent.class)
 	public void testCase_S6_007_DeleteWorkTypeGroup() throws InterruptedException {
 
-		browserInitiate("chrome");
+		
 		SaleforceLogin login = new SaleforceLogin(driver);  
 		login.saleForceLogin();
 

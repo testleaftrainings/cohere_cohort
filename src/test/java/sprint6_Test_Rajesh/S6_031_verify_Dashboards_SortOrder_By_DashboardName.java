@@ -12,7 +12,7 @@ public class S6_031_verify_Dashboards_SortOrder_By_DashboardName  extends BaseCl
 	}
 	@Test(retryAnalyzer = RetryEvent.class)
 	public void testCase_S6_031_verify_Dashboards_SortOrder_By_DashboardName() throws InterruptedException {
-		browserInitiate("chrome");
+
 
         SaleforceLogin login = new SaleforceLogin(driver);  
         login.saleForceLogin();

@@ -14,7 +14,7 @@ public class S6_019_Create_Contact extends BaseClass{
 	}
 	@Test(retryAnalyzer = RetryEvent.class)
 	public void testCase_S6_019_Create_Contact() throws InterruptedException {
-		browserInitiate("chrome");
+		
 		SaleforceLogin login = new SaleforceLogin(driver);  
 		login.saleForceLogin();
 		S6_19_CreateContact cC =	new S6_19_CreateContact(driver);
