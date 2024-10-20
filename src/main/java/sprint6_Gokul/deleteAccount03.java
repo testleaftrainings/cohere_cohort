@@ -43,7 +43,6 @@ public class DeleteAccount03 {
 		Thread.sleep(5000);
 		WebElement acc = driver.findElement(By.xpath("//a//span[text()='Accounts']"));
 		driver.executeScript("arguments[0].click();", acc);
-
 		Thread.sleep(5000);
 //			WebElement accName =driver.findElement(By.xpath("//a[@title='Accounts']/span[text()='Accounts']"));
 //			driver.executeScript("arguments[0].click();", accName);
