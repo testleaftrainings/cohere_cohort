@@ -1,4 +1,4 @@
-package selenium;
+package sprint6_Devi;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class CreateNewOrder {
+public class s6_40_Create_New_Order {
 @Test
 public void createNewOrder() {
 	ChromeDriver driver = new ChromeDriver();

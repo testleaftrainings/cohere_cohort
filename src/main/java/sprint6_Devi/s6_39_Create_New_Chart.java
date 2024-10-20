@@ -1,4 +1,4 @@
-package selenium;
+package sprint6_Devi;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -10,9 +10,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class CreateNewChart {
+public class s6_39_Create_New_Chart {
 @Test
-public void createNewOrder() {
+public void createNewChart() {
 	ChromeDriver driver = new ChromeDriver();
 	WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(5));
 	//Step 1: Launch the salesforce app

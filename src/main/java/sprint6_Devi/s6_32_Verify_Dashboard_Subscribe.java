@@ -1,4 +1,4 @@
-package selenium;
+package sprint6_Devi;
 
 import java.time.Duration;
 
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class VerifyDashboardSubscribe {
+public class s6_32_Verify_Dashboard_Subscribe {
 @Test
 public void dashboardSubscribe() {
 	ChromeDriver driver = new ChromeDriver();

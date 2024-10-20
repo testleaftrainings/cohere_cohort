@@ -1,4 +1,4 @@
-package selenium;
+package sprint6_Devi;
 
 	import java.time.Duration;
 
@@ -7,7 +7,7 @@ package selenium;
 	import org.openqa.selenium.chrome.ChromeDriver;
 	import org.testng.annotations.Test;
 
-	public class Create_WorkType {
+	public class s6_8_Create_Work_Type_Group {
 	@Test
 	public void workType() {
 		ChromeDriver driver = new ChromeDriver();

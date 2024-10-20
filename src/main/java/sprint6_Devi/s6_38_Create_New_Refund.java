@@ -1,4 +1,4 @@
-package selenium;
+package sprint6_Devi;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -8,9 +8,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class CreateNewRefund {
+public class s6_38_Create_New_Refund {
 @Test
-public void createNewOrder() {
+public void createNewRefund() {
 	ChromeDriver driver = new ChromeDriver();
 	//Step 1: Launch the salesforce app
 	driver.get("https://login.salesforce.com/");

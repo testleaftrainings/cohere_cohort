@@ -1,4 +1,4 @@
-package selenium;
+package sprint6_Devi;
 
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class CreateOpportunity {
+public class s6_14_Create_Opportunity {
 	@Test
 	public void createOpportunity() {
 	ChromeDriver driver = new ChromeDriver();

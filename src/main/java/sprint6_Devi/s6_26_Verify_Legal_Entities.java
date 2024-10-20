@@ -1,4 +1,4 @@
-package selenium;
+package sprint6_Devi;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -13,9 +13,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class VerifyLegalEntities {
+public class s6_26_Verify_Legal_Entities {
 @Test
-public void createNewOrder() throws ParseException, InterruptedException {
+public void verifyLegalEntities() throws ParseException, InterruptedException {
 	ChromeDriver driver = new ChromeDriver();
 	//Step 1: Launch the salesforce app
 	driver.get("https://login.salesforce.com/");

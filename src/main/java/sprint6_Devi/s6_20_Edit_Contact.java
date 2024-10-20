@@ -1,4 +1,4 @@
-package selenium;
+package sprint6_Devi;
 
 import java.time.Duration;
 import java.util.List;
@@ -9,9 +9,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class EditContact {
+public class s6_20_Edit_Contact {
 	@Test
-	public void createAccount() {
+	public void editContact() {
 		ChromeDriver driver = new ChromeDriver();
 		//Step 1: Launch the salesforce app
 		driver.get("https://login.salesforce.com/");
