@@ -13,7 +13,7 @@ public class S6_013_Create_Case_Without_Mandatory_Fields extends BaseClass{
 		SaleforceLogin login = new SaleforceLogin(driver);  
 		login.saleForceLogin();
 
-		S6_70CreateCaseWithoutMandatoryFields cCWMF = new S6_70CreateCaseWithoutMandatoryFields(driver); 
+		S6_13CreateCaseWithoutMandatoryFields cCWMF = new S6_13CreateCaseWithoutMandatoryFields(driver); 
 		cCWMF.s6_013_Create_Case_Without_Mandatory_Fields();
 	}
 }
