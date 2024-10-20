@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-20T17:15:41 IST" name="Default suite" finished-at="2024-10-20T17:16:22 IST" duration-ms="40566">
+  <suite started-at="2024-10-20T17:30:56 IST" name="Default suite" finished-at="2024-10-20T17:30:56 IST" duration-ms="52">
     <groups>
     </groups>
-    <test started-at="2024-10-20T17:15:41 IST" name="Default test" finished-at="2024-10-20T17:16:22 IST" duration-ms="40566">
-      <class name="sprint6_Gokul.CustomerServiceOptions33">
-        <test-method signature="customerServiceMethod()[pri:0, instance:sprint6_Gokul.CustomerServiceOptions33@6fd83fc1]" started-at="2024-10-20T17:15:41 IST" name="customerServiceMethod" finished-at="2024-10-20T17:16:20 IST" duration-ms="38902" status="PASS">
+    <test started-at="2024-10-20T17:30:56 IST" name="Default test" finished-at="2024-10-20T17:30:56 IST" duration-ms="52">
+      <class name="sprint6_Gokul.TestClass">
+        <test-method signature="simplemthod()[pri:0, instance:sprint6_Gokul.TestClass@7e7be63f]" started-at="2024-10-20T17:30:56 IST" name="simplemthod" finished-at="2024-10-20T17:30:56 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- customerServiceMethod -->
-        <test-method is-config="true" signature="close()[pri:0, instance:sprint6_Gokul.CustomerServiceOptions33@6fd83fc1]" started-at="2024-10-20T17:16:20 IST" name="close" finished-at="2024-10-20T17:16:22 IST" duration-ms="1622" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- sprint6_Gokul.CustomerServiceOptions33 -->
+        </test-method> <!-- simplemthod -->
+      </class> <!-- sprint6_Gokul.TestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
