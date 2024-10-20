@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-public class sortOrderByName09 {
+public class SortOrderByName09 {
 
 	ChromeDriver driver = new ChromeDriver();
 

@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.webdriver.WebDriverBrowser;
 
-public class deleteAccount03 {
+public class DeleteAccount03 {
 	ChromeDriver driver = new ChromeDriver();
 	//commit
 
