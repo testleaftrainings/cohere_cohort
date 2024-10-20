@@ -12,7 +12,7 @@ public class S6_025_Create_LegalEntity_Without_MandatoryFields  extends BaseClas
 	}
 	@Test(retryAnalyzer = RetryEvent.class)
 	public void testCase_S6_025_createLegalEntityWithoutMandatoryFields() throws InterruptedException {
-		browserInitiate("chrome");
+	
 
         SaleforceLogin login = new SaleforceLogin(driver);  
         login.saleForceLogin();

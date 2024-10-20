@@ -15,7 +15,7 @@ public class S6_70_Create_Leads_Without_Mandatory_Fields extends BaseClass{
 	}
 	@Test (retryAnalyzer = RetryEvent.class)
 	public void testCase_S6_70_Create_Leads_Without_Mandatory_Fields() throws InterruptedException {
-		browserInitiate("chrome");
+	
 		SaleforceLogin login = new SaleforceLogin(driver);  
 		login.saleForceLogin();
 		S6_70CreateLeadsWithoutMandatoryFields s6_70 = new S6_70CreateLeadsWithoutMandatoryFields(driver); 
