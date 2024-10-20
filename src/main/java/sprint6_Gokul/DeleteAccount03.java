@@ -15,20 +15,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.webdriver.WebDriverBrowser;
 
 public class DeleteAccount03 {
 //	ChromeDriver driver = new ChromeDriver();
 	//commit
-	
-	static RemoteWebDriver driver ;
 
 	@Test
 	public void deleteAccMethod() throws InterruptedException, MalformedURLException {
-		 
 		DesiredCapabilities dc = new DesiredCapabilities();
         dc.setBrowserName("MicrosoftEdge");
         dc.setPlatform(Platform.LINUX);
-        driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
+        RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
 		driver.manage().window().maximize();
 		driver.get("https://login.salesforce.com/");
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
