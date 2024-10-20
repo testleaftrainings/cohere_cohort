@@ -18,7 +18,6 @@ public class AttachDocumentNewCreatedCampaign43 {
 
 	@Test
 	public void attachDocumentMethod() throws InterruptedException {
-
 		driver.manage().window().maximize();
 		driver.get("https://login.salesforce.com/");
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
