@@ -2,6 +2,8 @@ package sprint6_Logeshwari;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -39,22 +41,37 @@ public class s6_49_Delete_Lead {
         driver.findElement(By.xpath("//one-app-launcher-app-tile[@data-name='Sales']//mark[text()='Sales']")).click();
 
         // Click on Leads tab
-        driver.findElement(By.xpath("//a[@title='Leads']")).click();
+        Thread.sleep(5000);
+        WebElement eleLeads = driver.findElement(By.xpath("//a[@title='Leads']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleLeads);
+
 
         // Search for Lead with name as <your name>
-        driver.findElement(By.xpath(""));
+        driver.findElement(By.xpath("//input[@name='Lead-search-input']")).sendKeys("Logeshwari");
 
         // Click on dropdown icon for the Lead and Select Delete
+        Thread.sleep(10000);
+        WebElement eleDropdown = driver.findElement(By.xpath("((//tbody//tr)[1])//a[@role='button']//span[text()='Show Actions']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleDropdown);
 
+        Thread.sleep(5000);
+        WebElement eleDel = driver.findElement(By.xpath("//a[@title='Delete']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleDel);
 
         // Confirm the Delete for Lead
-
+        Thread.sleep(5000);
+        WebElement eleDelete = driver.findElement(By.xpath("//button[@title='Delete']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleDelete);
 
         // Click on Campaign tab
-
+        Thread.sleep(5000);
+        WebElement eleCampaign = driver.findElement(By.xpath("//a[@title='Campaigns']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleCampaign);
 
         // Click Bootcamp link
-
+        Thread.sleep(5000);
+        WebElement eleBootbamp = driver.findElement(By.xpath("//a[@title='Bootcamp']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleBootbamp);
 
         // Verify the associated Lead
 

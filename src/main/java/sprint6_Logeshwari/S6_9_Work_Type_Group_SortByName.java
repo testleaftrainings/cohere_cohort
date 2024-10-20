@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class s6_9_Work_Type_Group_SortByName {
+public class S6_9_Work_Type_Group_SortByName {
     ChromeDriver driver;
     WebDriverWait wait;
 

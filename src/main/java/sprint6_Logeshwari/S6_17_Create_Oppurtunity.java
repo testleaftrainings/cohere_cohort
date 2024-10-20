@@ -12,7 +12,7 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
-public class s6_17_Create_Oppurtunity {
+public class S6_17_Create_Oppurtunity {
 
     @Test
     public void createOppurtunity(){

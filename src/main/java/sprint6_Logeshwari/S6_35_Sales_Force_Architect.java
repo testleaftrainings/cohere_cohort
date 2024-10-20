@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-public class s6_35_Sales_Force_Architect {
+public class S6_35_Sales_Force_Architect {
 
     ChromeDriver driver;
     WebDriverWait wait;

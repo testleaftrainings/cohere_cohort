@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 
 
-public class s6_11_Edit_Case {
+public class S6_11_Edit_Case {
     @Test
     public void editCase() {
 

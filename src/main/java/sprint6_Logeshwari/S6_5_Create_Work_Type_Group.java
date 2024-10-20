@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-public class s6_5_Create_Work_Type_Group {
+public class S6_5_Create_Work_Type_Group {
 
     @Test
     public void CreateWorkTypeGroup() {

@@ -12,7 +12,7 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
-public class s6_29_Edit_Dashboard {
+public class S6_29_Edit_Dashboard {
 
     @Test
     public void editDashboard() throws InterruptedException {

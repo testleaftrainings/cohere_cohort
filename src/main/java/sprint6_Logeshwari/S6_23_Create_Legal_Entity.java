@@ -12,7 +12,7 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
-public class s6_23_Create_Legal_Entity {
+public class S6_23_Create_Legal_Entity {
 
     @Test
     public void createLegalEntity() throws InterruptedException {
