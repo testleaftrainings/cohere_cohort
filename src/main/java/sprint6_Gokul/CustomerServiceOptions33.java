@@ -4,22 +4,31 @@ import java.util.Set;
 
 import io.github.sukgu.Shadow;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import java.awt.List;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Iterator;
 
-@Test
+
 public class CustomerServiceOptions33 {
 
-	ChromeDriver driver = new ChromeDriver();
-
-	public void customerServiceMethod() throws InterruptedException {
-
+//	ChromeDriver driver = new ChromeDriver();
+	static RemoteWebDriver driver ;
+	@Test
+	public void customerServiceMethod() throws InterruptedException, MalformedURLException {
+		DesiredCapabilities dc = new DesiredCapabilities();
+        dc.setBrowserName("MicrosoftEdge");
+        dc.setPlatform(Platform.LINUX);
+        driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
 		driver.get("https://login.salesforce.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
