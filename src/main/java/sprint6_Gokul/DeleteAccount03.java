@@ -18,7 +18,6 @@ public class DeleteAccount03 {
 
 	@Test
 	public void deleteAccMethod() throws InterruptedException {
-
 		driver.manage().window().maximize();
 		driver.get("https://login.salesforce.com/");
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
