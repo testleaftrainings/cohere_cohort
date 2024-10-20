@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323e3481-9aa2-47eb-8a24-2cc2ce5f019d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Gokul/deleteAccount03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Gokul/deleteAccount03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/s6_11_Edit_Case.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/s6_17_Create_Oppurtunity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/s6_23_Create_Legal_Entity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/s6_29_Edit_Dashboard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/s6_2_Edit_Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/s6_35_Sales_Force_Architect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/s6_47_Del_Newly_Created_Oppurtunity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/s6_48_Create_Lead_For_Campaign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/s6_49_Delete_Lead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/s6_5_Create_Work_Type_Group.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/s6_9_Work_Type_Group_SortByName.java" beforeDir="false" />
-    </list>
+    <list default="true" id="323e3481-9aa2-47eb-8a24-2cc2ce5f019d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +26,7 @@
     "JUnit.CreateNewDashboard_28.createNewDashboard.executor": "Run",
     "JUnit.s6_49_Delete_Lead.salesForce.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CreateAccount_1.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
