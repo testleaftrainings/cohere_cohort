@@ -118,7 +118,7 @@ public class S6_37_VerifyAppStoreLoadedToDownloadSalesForceAStory extends BaseCl
 
 		Set<String> allWindowHandles = driver.getWindowHandles();
 
-		List <String> window =new ArrayList<>(allWindowHandles);
+		List <String> window =new ArrayList<String>(allWindowHandles);
 
 		driver.switchTo().window(window.get(a));
 		allWindowHandles.clear();

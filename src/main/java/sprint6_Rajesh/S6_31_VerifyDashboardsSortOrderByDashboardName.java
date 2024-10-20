@@ -80,7 +80,7 @@ public class S6_31_VerifyDashboardsSortOrderByDashboardName extends BaseClass {
 
 	public  List<String> getAllText(List<WebElement> rawNameListEle) {
 
-		List<String> namesList = new ArrayList<>();
+		List<String> namesList = new ArrayList<String>();
 		for (WebElement element : rawNameListEle) {
 			namesList.add(element.getText());  // Get text and add to namesList
 		}
