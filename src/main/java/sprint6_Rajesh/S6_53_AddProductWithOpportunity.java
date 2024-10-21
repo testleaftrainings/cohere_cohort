@@ -5,11 +5,12 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class S6_53_AddProductWithOpportunity extends BaseClass {
-	public S6_53_AddProductWithOpportunity(WebDriver driver) {
+	public S6_53_AddProductWithOpportunity(RemoteWebDriver driver) {
 		this.driver=driver;
 	}
 	@Test

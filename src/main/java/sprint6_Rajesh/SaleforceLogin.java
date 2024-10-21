@@ -2,6 +2,7 @@ package sprint6_Rajesh;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -10,7 +11,7 @@ import java.time.Duration;
 
 public class SaleforceLogin extends BaseClass{
 
-	public SaleforceLogin(WebDriver driver){
+	public SaleforceLogin(RemoteWebDriver driver){
 		this.driver = driver;
 	}
 	
