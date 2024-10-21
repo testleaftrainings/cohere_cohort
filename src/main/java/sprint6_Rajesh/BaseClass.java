@@ -25,7 +25,6 @@ public class BaseClass {
 		switch (browser.toLowerCase()) {
 		case "chrome":
 			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("--remote-allow-origins=*");
 			chromeOptions.addArguments("--disable-notifications");
 			chromeOptions.addArguments("--disable-save-password-bubble");
 			chromeOptions.addArguments("--disable-autofill-keyboard-accessory-view[8]");
@@ -61,26 +60,33 @@ public class BaseClass {
 			options.addArguments("--disable-notifications"); 
 			options.setPlatformName("LINUX"); 
 
-			DesiredCapabilities dc = new DesiredCapabilities();
-			dc.setBrowserName("MicrosoftEdge");
-			dc.setPlatform(Platform.LINUX);
-			dc.setCapability(ChromeOptions.CAPABILITY, options);
+			DesiredCapabilities ChromeDC = new DesiredCapabilities();
+			ChromeDC.setBrowserName("chrome");
+			ChromeDC.setPlatform(Platform.LINUX);
+			ChromeDC.setCapability(ChromeOptions.CAPABILITY, options);
 
-			driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
+			driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), ChromeDC);
 			break;
 		case "edge":
 			EdgeOptions edgeOptions = new EdgeOptions();
 			edgeOptions.addArguments("--disable-notifications"); 
 			edgeOptions.setPlatformName("LINUX"); 
+			DesiredCapabilities edgeDC = new DesiredCapabilities();
+			edgeDC.setBrowserName("MicrosoftEdge");
+			edgeDC.setPlatform(Platform.LINUX);
+			edgeDC.setCapability(ChromeOptions.CAPABILITY, edgeOptions);
 
-			driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), edgeOptions);
+			driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), edgeDC);
 			break;
 		case "firefox":
 			FirefoxOptions firefoxOptions = new FirefoxOptions();
-			firefoxOptions.addArguments("--disable-notifications");
+			firefoxOptions.addPreference("dom.webnotifications.enabled", false);
 			firefoxOptions.setPlatformName("LINUX");
-
-			driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), firefoxOptions);
+			DesiredCapabilities firefoxDC = new DesiredCapabilities();
+			firefoxDC.setBrowserName("firefox");
+			firefoxDC.setPlatform(Platform.LINUX);
+			firefoxDC.setCapability(ChromeOptions.CAPABILITY, firefoxDC);
+			driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), firefoxDC);
 			break;
 
 		default:
