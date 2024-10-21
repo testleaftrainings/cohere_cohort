@@ -10,6 +10,7 @@ public class S6_013_Create_Case_Without_Mandatory_Fields extends BaseClass{
 	@BeforeMethod
 	public void browser() {
 		browserInitiate("chrome");
+//		gridExecution("");
 	}
 	@Test (retryAnalyzer = RetryEvent.class)
 
