@@ -5,7 +5,7 @@ import org.testng.ITestResult;
 
 public class RetryEvent implements IRetryAnalyzer  {
 	private int retryStartCount=0;
-	private int retryEndCount=3;
+	private int retryEndCount=5;
 
 	public boolean retry(ITestResult result) {
 		// TODO Auto-generated method stub

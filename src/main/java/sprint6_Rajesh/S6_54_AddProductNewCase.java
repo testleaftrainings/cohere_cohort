@@ -22,7 +22,7 @@ public class S6_54_AddProductNewCase extends BaseClass {
 
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
-		
+
 		//		Click on toggle menu button from the left corner 
 
 
@@ -30,7 +30,8 @@ public class S6_54_AddProductNewCase extends BaseClass {
 
 
 		//		Click view All 
-
+		
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//button[@title='Close']//following::button")).click();
 
 		//		Click on Content tab 
@@ -90,14 +91,14 @@ public class S6_54_AddProductNewCase extends BaseClass {
 
 		//		Click on save 
 
-				;	
+		;	
 		driver.findElement(By.xpath("//span[text()='Subject']//following::span[text()='Save']")).click();
-				WebElement toast = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//div[contains(@id,'toastDescription')]"))));
-				String text = toast.getText();
+		WebElement toast = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//div[contains(@id,'toastDescription')]"))));
+		String text = toast.getText();
 		if (text==""||!text.isBlank()||!text.isEmpty()) {
 			Assert.assertTrue(true);
 		}
-				
+
 	}
-	
+
 }
