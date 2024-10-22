@@ -12,22 +12,22 @@ public class S6_054_Add_Product  extends BaseClass {
 	@Parameters({"browser","mode"})
 	@BeforeMethod
 	public void browser(String browser,String mode) throws MalformedURLException {
-		if (mode.equalsIgnoreCase("remote")) {
+		if (mode.equalsIgnoreCase("true")) {
 			gridExecution(browser);
 
-		}else {
+		}else  {
 			browserInitiate(browser);
 		}
 
 	}
 
 
-
+	@Parameters({"userName","password"})
 	@Test(retryAnalyzer = RetryEvent.class)
-	public void testCase_S6_054_Add_Product() throws InterruptedException {
+	public void testCase_S6_054_Add_Product(String userName,String password) throws InterruptedException {
 
 		SaleforceLogin login = new SaleforceLogin(driver);  
-		login.saleForceLogin();
+		login.saleForceLogin(userName,password);
 		S6_54_AddProductNewCase aP = new S6_54_AddProductNewCase(driver);
 		aP.addProduct();
 
