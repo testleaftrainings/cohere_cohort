@@ -22,7 +22,7 @@ public class S6_019_Create_Contact extends BaseClass{
 
 	}
 	
-	@Parameters({"password","userName"})
+	@Parameters({"userName","password"})
 	@Test(retryAnalyzer = RetryEvent.class)
 	public void testCase_S6_019_Create_Contact(String userName,String password) throws InterruptedException {
 		

@@ -24,7 +24,7 @@ public class S6_70_Create_Leads_Without_Mandatory_Fields extends BaseClass{
 
 	}
 	
-	@Parameters({"password","userName"})	
+	@Parameters({"userName","password"})
 	@Test (retryAnalyzer = RetryEvent.class)
 	public void testCase_S6_70_Create_Leads_Without_Mandatory_Fields(String userName,String password) throws InterruptedException {
 

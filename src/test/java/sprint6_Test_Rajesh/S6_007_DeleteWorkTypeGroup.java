@@ -24,7 +24,7 @@ public class S6_007_DeleteWorkTypeGroup  extends BaseClass {
 
 	}
 	
-	@Parameters({"password","userName"})
+	@Parameters({"userName","password"})
 	@Test(retryAnalyzer = RetryEvent.class)
 	public void testCase_S6_007_DeleteWorkTypeGroup(String userName,String password) throws InterruptedException {
 

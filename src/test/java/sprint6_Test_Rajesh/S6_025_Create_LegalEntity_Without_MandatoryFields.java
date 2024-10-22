@@ -21,7 +21,7 @@ public class S6_025_Create_LegalEntity_Without_MandatoryFields  extends BaseClas
 
 	}
 	
-	@Parameters({"password","userName"})
+	@Parameters({"userName","password"})
 	@Test(retryAnalyzer = RetryEvent.class)
 	public void testCase_S6_025_createLegalEntityWithoutMandatoryFields(String userName,String password) throws InterruptedException {
 	
