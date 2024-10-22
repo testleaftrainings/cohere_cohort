@@ -15,13 +15,13 @@ public class SaleforceLogin extends BaseClass{
 		this.driver = driver;
 	}
 	
-	public void saleForceLogin() {
+	public void saleForceLogin(String userid,String pass) {
 		
 
 		//Step 1: Login to Login | Salesforce 
 		driver.get("https://login.salesforce.com/");
-		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-		driver.findElement(By.id("password")).sendKeys("Leaf$321");
+		driver.findElement(By.id("username")).sendKeys(userid);
+		driver.findElement(By.id("password")).sendKeys(pass);
 		driver.findElement(By.id("Login")).click();		
 		new WebDriverWait(driver, Duration.ofSeconds(30)).until((ExpectedCondition<Boolean>) wd ->
         ((JavascriptExecutor) wd).executeScript("return document.readyState").equals("complete"));
