@@ -12,17 +12,21 @@
 	</test>
 	<!-- Test1 -->
 
-
 	<!-- Gokul TestCase -->
 
 
 	<!-- Rajesh TestCase -->
+	<!-- browser chrome edge firefox mode: true: remote false: normal -->
 	<test thread-count="5" name="sprint6_Rajesh">
-		<parameter name="mode" value="remote" />
+		<parameter name="mode" value="true" />
 		<parameter name="browser" value="edge" />
+		<parameter name="userName" value="gokul.sekar@testleaf.com" />
+		<parameter name="password" value="Leaf@123" />
 		<classes>
 			<class name="sprint6_Test_Rajesh.S6_054_Add_Product" />
 		</classes>
 	</test> <!-- Test2 -->
+
+	<!-- Rajesh TestCase -->
 
 </suite> <!-- CombinedSuite -->
