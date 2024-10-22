@@ -4,12 +4,12 @@
 <suite name="CombinedSuite">
 
 	<!-- Gokul TestCase -->
-	 
-	<test thread-count="5" name="Test1">
+
+	<test thread-count="5" name="Test">
 		<classes>
-			<class name="sprint6_Gokul.TestClass" />
+			<class name="sprint6_Gokul.CustomerServiceOptions33" />
 		</classes>
-	</test> 
+	</test>
 	<!-- Test1 -->
 
 
