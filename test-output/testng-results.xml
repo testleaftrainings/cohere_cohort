@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-20T17:15:41 IST" name="Default suite" finished-at="2024-10-20T17:16:22 IST" duration-ms="40566">
+  <suite started-at="2024-10-22T07:38:20 IST" name="CombinedSuite" finished-at="2024-10-22T07:38:51 IST" duration-ms="30932">
     <groups>
     </groups>
-    <test started-at="2024-10-20T17:15:41 IST" name="Default test" finished-at="2024-10-20T17:16:22 IST" duration-ms="40566">
+    <test started-at="2024-10-22T07:38:20 IST" name="Test" finished-at="2024-10-22T07:38:51 IST" duration-ms="30932">
       <class name="sprint6_Gokul.CustomerServiceOptions33">
-        <test-method signature="customerServiceMethod()[pri:0, instance:sprint6_Gokul.CustomerServiceOptions33@6fd83fc1]" started-at="2024-10-20T17:15:41 IST" name="customerServiceMethod" finished-at="2024-10-20T17:16:20 IST" duration-ms="38902" status="PASS">
+        <test-method signature="customerServiceMethod()[pri:0, instance:sprint6_Gokul.CustomerServiceOptions33@2805d709]" started-at="2024-10-22T07:38:20 IST" name="customerServiceMethod" finished-at="2024-10-22T07:38:50 IST" duration-ms="29341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerServiceMethod -->
-        <test-method is-config="true" signature="close()[pri:0, instance:sprint6_Gokul.CustomerServiceOptions33@6fd83fc1]" started-at="2024-10-20T17:16:20 IST" name="close" finished-at="2024-10-20T17:16:22 IST" duration-ms="1622" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:sprint6_Gokul.CustomerServiceOptions33@2805d709]" started-at="2024-10-22T07:38:50 IST" name="close" finished-at="2024-10-22T07:38:51 IST" duration-ms="1552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- sprint6_Gokul.CustomerServiceOptions33 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- CombinedSuite -->
 </testng-results>
