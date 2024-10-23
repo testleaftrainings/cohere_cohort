@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="sprint6_Gokul.CustomerServiceOptions33"/>
+      <class name="sprint6_Logeshwari.S6_5_Create_Work_Type_Group"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

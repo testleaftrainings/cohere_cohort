@@ -1,32 +1,32 @@
 package sprint6_Logeshwari;
-import java.time.Duration;
-import java.util.HashMap;
-import java.util.Map;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.time.Duration;
+
 public class S6_5_Create_Work_Type_Group {
-
     @Test
-    public void CreateWorkTypeGroup() {
-        // Set up Chrome options to disable notifications
-        Map<String, Object> prefs = new HashMap<>();
-        prefs.put("profile.default_content_setting_values.notifications", 2);
+    public void CreateWorkTypeGroup() throws MalformedURLException {
+
         ChromeOptions options = new ChromeOptions();
-        options.setExperimentalOption("prefs", prefs);
-
-        // Initialize the WebDriver with the options
-        WebDriver driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        options.addArguments("--disable-notifications");
+        //ChromeDriver driver = new ChromeDriver(options);
+        DesiredCapabilities dc = new DesiredCapabilities();
+        dc.setBrowserName("MicrosoftEdge");
+        dc.setPlatform(Platform.LINUX);
+        RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
         driver.manage().window().maximize();
-
-        // 1. Login to https://login.salesforce.com
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         driver.get("https://login.salesforce.com/");
         driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
         driver.findElement(By.id("password")).sendKeys("Leaf$321");
