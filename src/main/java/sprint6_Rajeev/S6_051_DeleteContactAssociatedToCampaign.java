@@ -15,8 +15,8 @@ public class S6_051_DeleteContactAssociatedToCampaign {
 	@Test
 	public void s6_051_DeleteContactAssociatedToCampaign() throws InterruptedException {
 		// TODO Auto-generated method stub
-		String FirstName = "Sample";
-		String LastName = "Test";
+		String FirstName = "Rajeev";
+		String LastName = "Isaac";
 		String FullName = FirstName + " " +LastName;
 		
 		ChromeOptions options = new ChromeOptions();
