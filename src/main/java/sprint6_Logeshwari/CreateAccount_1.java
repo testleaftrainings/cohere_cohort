@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
@@ -18,29 +19,22 @@ public class CreateAccount_1 {
         @Test
         public void createAccount() throws InterruptedException, MalformedURLException {
 
-
-            // Set up Chrome options to disable notifications
-            Map<String, Object> prefs = new HashMap<>();
-            prefs.put("profile.default_content_setting_values.notifications", 2);
             ChromeOptions options = new ChromeOptions();
-            options.setExperimentalOption("prefs", prefs);
-
-            // Initialize the WebDriver with the options
-           // WebDriver driver = new ChromeDriver(options);
-
+            options.addArguments("--disable-notifications");
+            //ChromeDriver driver = new ChromeDriver(options);
             DesiredCapabilities dc = new DesiredCapabilities();
             dc.setBrowserName("MicrosoftEdge");
             dc.setPlatform(Platform.LINUX);
             RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
             driver.manage().window().maximize();
-            // Login to Login | Salesforce
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
             driver.get("https://login.salesforce.com/");
             driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-            driver.findElement(By.id("password")).sendKeys("Leaf$321");
+            driver.findElement(By.id("password")).sendKeys("Leaf@123");
             driver.findElement(By.id("Login")).click();
 
-            // Click on toggle menu button from the left corner
+            // 2. Click on the toggle menu button from the left corner
             driver.findElement(By.xpath("//button[@title='App Launcher']/div[1]")).click();
 
             // Click view All and click Sales from App Launcher

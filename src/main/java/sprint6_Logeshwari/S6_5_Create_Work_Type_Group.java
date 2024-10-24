@@ -15,7 +15,7 @@ import java.time.Duration;
 
 public class S6_5_Create_Work_Type_Group {
     @Test
-    public void CreateWorkTypeGroup() throws MalformedURLException {
+    public void CreateWorkTypeGroup() throws MalformedURLException, InterruptedException {
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
@@ -29,7 +29,7 @@ public class S6_5_Create_Work_Type_Group {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         driver.get("https://login.salesforce.com/");
         driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-        driver.findElement(By.id("password")).sendKeys("Leaf$321");
+        driver.findElement(By.id("password")).sendKeys("Leaf@123");
         driver.findElement(By.id("Login")).click();
 
         // 2. Click on the toggle menu button from the left corner
@@ -42,7 +42,9 @@ public class S6_5_Create_Work_Type_Group {
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleType);
 
         // 4. Click on the Dropdown icon in the Work Type Groups tab
-        driver.findElement(By.xpath("(//a[@title='Recently Viewed | Work Type Groups']//following-sibling::one-app-nav-bar-item-dropdown)[2]//one-app-nav-bar-menu-button/a")).click();
+        Thread.sleep(5000);
+        WebElement eleDropdown = driver.findElement(By.xpath("(//a[@title='Recently Viewed | Work Type Groups']//following-sibling::one-app-nav-bar-item-dropdown)[2]//one-app-nav-bar-menu-button/a"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleDropdown);
 
         // 5. Click on New Work Type Group
         WebElement eleNewWorkTypeGroup = driver.findElement(By.xpath("//span[text()='New Work Type Group']"));

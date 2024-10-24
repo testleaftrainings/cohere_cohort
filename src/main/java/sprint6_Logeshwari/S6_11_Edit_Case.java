@@ -32,7 +32,7 @@ public class S6_11_Edit_Case {
         // 1. Login to https://login.salesforce.com
         driver.get("https://login.salesforce.com/");
         driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-        driver.findElement(By.id("password")).sendKeys("Leaf$321");
+        driver.findElement(By.id("password")).sendKeys("Leaf@123");
         driver.findElement(By.id("Login")).click();
 
         // 2. Click on toggle menu button from the left corner

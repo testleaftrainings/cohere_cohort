@@ -29,7 +29,7 @@ public class S6_29_Edit_Dashboard {
         // Login to Login | Salesforce
         driver.get("https://login.salesforce.com/");
         driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-        driver.findElement(By.id("password")).sendKeys("Leaf$321");
+        driver.findElement(By.id("password")).sendKeys("Leaf@123");
         driver.findElement(By.id("Login")).click();
 
         // Click on toggle menu button from the left corner

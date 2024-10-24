@@ -32,7 +32,7 @@ public class S6_35_Sales_Force_Architect {
 
         // Login with username and password.
         driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-        driver.findElement(By.id("password")).sendKeys("Leaf$321");
+        driver.findElement(By.id("password")).sendKeys("Leaf@123");
         driver.findElement(By.id("Login")).click();
 
         // Click on Learn More link in Mobile Publisher

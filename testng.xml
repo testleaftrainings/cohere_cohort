@@ -3,30 +3,45 @@
 
 <suite name="CombinedSuite">
 
-	<!-- Gokul TestCase -->
+<!--	&lt;!&ndash; Gokul TestCase &ndash;&gt;-->
 
-	<test thread-count="5" name="Test">
-		<classes>
-			<class name="sprint6_Gokul.CustomerServiceOptions33" />
-		</classes>
-	</test>
-	<!-- Test1 -->
+<!--	<test thread-count="5" name="Test">-->
+<!--		<classes>-->
+<!--			<class name="sprint6_Gokul.CustomerServiceOptions33" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	&lt;!&ndash; Test1 &ndash;&gt;-->
 
-	<!-- Gokul TestCase -->
+<!--	&lt;!&ndash; Gokul TestCase &ndash;&gt;-->
 
 
-	<!-- Rajesh TestCase -->
+<!--	&lt;!&ndash; Rajesh TestCase &ndash;&gt;-->
+<!--	&lt;!&ndash; browser chrome edge firefox mode: true: remote false: normal &ndash;&gt;-->
+<!--	<test thread-count="5" name="sprint6_Rajesh">-->
+<!--		<parameter name="mode" value="true" />-->
+<!--		<parameter name="browser" value="edge" />-->
+<!--		<parameter name="userName" value="gokul.sekar@testleaf.com" />-->
+<!--		<parameter name="password" value="Leaf@123" />-->
+<!--		<classes>-->
+<!--			<class name="sprint6_Test_Rajesh.S6_054_Add_Product" />-->
+<!--		</classes>-->
+<!--	</test> &lt;!&ndash; Test2 &ndash;&gt;-->
+
+<!--	&lt;!&ndash; Rajesh TestCase &ndash;&gt;-->
+
+	<!-- Test3 -->
+	<!-- Logeshwari TestCase -->
 	<!-- browser chrome edge firefox mode: true: remote false: normal -->
-	<test thread-count="5" name="sprint6_Rajesh">
+	<test thread-count="5" name="sprint6_Logeshwari">
 		<parameter name="mode" value="true" />
 		<parameter name="browser" value="edge" />
 		<parameter name="userName" value="gokul.sekar@testleaf.com" />
 		<parameter name="password" value="Leaf@123" />
 		<classes>
-			<class name="sprint6_Test_Rajesh.S6_054_Add_Product" />
+			<class name="sprint6_Logeshwari.S6_5_Create_Work_Type_Group" />
 		</classes>
-	</test> <!-- Test2 -->
+	</test> <!-- Test3 -->
 
-	<!-- Rajesh TestCase -->
+	<!-- Logeshwari TestCase -->
 
 </suite> <!-- CombinedSuite -->
