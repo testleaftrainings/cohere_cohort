@@ -2,24 +2,24 @@
 <testng-results retried="5" ignored="0" total="8" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-24T23:50:21 IST" name="CombinedSuite" finished-at="2024-10-24T23:52:34 IST" duration-ms="132392">
+  <suite started-at="2024-10-25T00:13:59 IST" name="CombinedSuite" finished-at="2024-10-25T00:16:19 IST" duration-ms="140001">
     <groups>
     </groups>
-    <test started-at="2024-10-24T23:50:21 IST" name="Test" finished-at="2024-10-24T23:50:44 IST" duration-ms="23032">
+    <test started-at="2024-10-25T00:13:59 IST" name="Test" finished-at="2024-10-25T00:14:23 IST" duration-ms="24068">
       <class name="sprint6_Gokul.CustomerServiceOptions33">
-        <test-method signature="customerServiceMethod()[pri:0, instance:sprint6_Gokul.CustomerServiceOptions33@3c7f66c4]" started-at="2024-10-24T23:50:21 IST" name="customerServiceMethod" finished-at="2024-10-24T23:50:43 IST" duration-ms="21759" status="PASS">
+        <test-method signature="customerServiceMethod()[pri:0, instance:sprint6_Gokul.CustomerServiceOptions33@3c7f66c4]" started-at="2024-10-25T00:13:59 IST" name="customerServiceMethod" finished-at="2024-10-25T00:14:22 IST" duration-ms="22850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerServiceMethod -->
-        <test-method is-config="true" signature="close()[pri:0, instance:sprint6_Gokul.CustomerServiceOptions33@3c7f66c4]" started-at="2024-10-24T23:50:43 IST" name="close" finished-at="2024-10-24T23:50:44 IST" duration-ms="1245" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:sprint6_Gokul.CustomerServiceOptions33@3c7f66c4]" started-at="2024-10-25T00:14:22 IST" name="close" finished-at="2024-10-25T00:14:23 IST" duration-ms="1187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- sprint6_Gokul.CustomerServiceOptions33 -->
     </test> <!-- Test -->
-    <test started-at="2024-10-24T23:50:44 IST" name="sprint6_Rajesh" finished-at="2024-10-24T23:52:11 IST" duration-ms="86478">
+    <test started-at="2024-10-25T00:14:23 IST" name="sprint6_Rajesh" finished-at="2024-10-25T00:15:49 IST" duration-ms="86182">
       <class name="sprint6_Test_Rajesh.S6_054_Add_Product">
-        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:50:44 IST" name="browser" finished-at="2024-10-24T23:50:45 IST" duration-ms="647" status="PASS">
+        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:14:23 IST" name="browser" finished-at="2024-10-25T00:14:24 IST" duration-ms="574" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method retried="true" signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:50:45 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-24T23:50:58 IST" duration-ms="13103" status="SKIP">
+        <test-method retried="true" signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:14:24 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-25T00:14:37 IST" duration-ms="13469" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -56,9 +56,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [17792446aef6d6fe5418fc473e5675b3, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:36489}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.Sk...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 17792446aef6d6fe5418fc473e5675b3]]>
+Command: [685e0859315df5d128c8576623c2d83a, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:35577}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.RK...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 685e0859315df5d128c8576623c2d83a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@role='option']/span)[1]"}
@@ -67,9 +67,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [17792446aef6d6fe5418fc473e5675b3, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:36489}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.Sk...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 17792446aef6d6fe5418fc473e5675b3
+Command: [685e0859315df5d128c8576623c2d83a, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:35577}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.RK...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 685e0859315df5d128c8576623c2d83a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -121,11 +121,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase_S6_054_Add_Product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:50:58 IST" name="tearDown" finished-at="2024-10-24T23:50:59 IST" duration-ms="1132" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:14:37 IST" name="tearDown" finished-at="2024-10-25T00:14:38 IST" duration-ms="1147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:50:59 IST" name="browser" finished-at="2024-10-24T23:51:00 IST" duration-ms="728" status="PASS">
+        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:14:38 IST" name="browser" finished-at="2024-10-25T00:14:39 IST" duration-ms="593" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method retried="true" signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:00 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-24T23:51:12 IST" duration-ms="12389" status="SKIP">
+        <test-method retried="true" signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:14:39 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-25T00:14:52 IST" duration-ms="12884" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -162,9 +162,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [225166759c1c77dbabd174d3d18d84d2, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:33749}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.Kc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 225166759c1c77dbabd174d3d18d84d2]]>
+Command: [02064047b0a4dacd929a339ab80f6a8e, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:42453}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.lD...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 02064047b0a4dacd929a339ab80f6a8e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@role='option']/span)[1]"}
@@ -173,9 +173,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [225166759c1c77dbabd174d3d18d84d2, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:33749}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.Kc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 225166759c1c77dbabd174d3d18d84d2
+Command: [02064047b0a4dacd929a339ab80f6a8e, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:42453}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.lD...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 02064047b0a4dacd929a339ab80f6a8e
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -227,11 +227,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase_S6_054_Add_Product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:12 IST" name="tearDown" finished-at="2024-10-24T23:51:14 IST" duration-ms="1131" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:14:52 IST" name="tearDown" finished-at="2024-10-25T00:14:53 IST" duration-ms="1125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:14 IST" name="browser" finished-at="2024-10-24T23:51:14 IST" duration-ms="600" status="PASS">
+        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:14:53 IST" name="browser" finished-at="2024-10-25T00:14:53 IST" duration-ms="574" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -247,7 +247,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method retried="true" signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:14 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-24T23:51:26 IST" duration-ms="12293" status="SKIP">
+        <test-method retried="true" signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:14:53 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-25T00:15:06 IST" duration-ms="12233" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -268,9 +268,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [f179f38bd6614132865da8e259e8b0b0, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:41773}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.Cm...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f179f38bd6614132865da8e259e8b0b0]]>
+Command: [08bc9e135410fe1467cfafc28068d426, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:37499}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.MS...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08bc9e135410fe1467cfafc28068d426]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@role='option']/span)[1]"}
@@ -279,9 +279,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [f179f38bd6614132865da8e259e8b0b0, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:41773}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.Cm...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f179f38bd6614132865da8e259e8b0b0
+Command: [08bc9e135410fe1467cfafc28068d426, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:37499}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.MS...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08bc9e135410fe1467cfafc28068d426
 at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -332,11 +332,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase_S6_054_Add_Product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:26 IST" name="tearDown" finished-at="2024-10-24T23:51:28 IST" duration-ms="1231" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:15:06 IST" name="tearDown" finished-at="2024-10-25T00:15:07 IST" duration-ms="1124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:28 IST" name="browser" finished-at="2024-10-24T23:51:28 IST" duration-ms="622" status="PASS">
+        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:15:07 IST" name="browser" finished-at="2024-10-25T00:15:07 IST" duration-ms="570" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -352,7 +352,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method retried="true" signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:28 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-24T23:51:41 IST" duration-ms="12610" status="SKIP">
+        <test-method retried="true" signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:15:07 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-25T00:15:20 IST" duration-ms="12198" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -373,9 +373,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [4208b87cb1ef574fae3fc63b72daa828, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:35057}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.kr...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4208b87cb1ef574fae3fc63b72daa828]]>
+Command: [5661f3fe10fafbb34685965781010369, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:35823}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.kv...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5661f3fe10fafbb34685965781010369]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@role='option']/span)[1]"}
@@ -384,9 +384,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [4208b87cb1ef574fae3fc63b72daa828, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:35057}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.kr...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4208b87cb1ef574fae3fc63b72daa828
+Command: [5661f3fe10fafbb34685965781010369, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:35823}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.kv...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5661f3fe10fafbb34685965781010369
 at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -437,11 +437,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase_S6_054_Add_Product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:41 IST" name="tearDown" finished-at="2024-10-24T23:51:42 IST" duration-ms="1134" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:15:20 IST" name="tearDown" finished-at="2024-10-25T00:15:21 IST" duration-ms="1198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:42 IST" name="browser" finished-at="2024-10-24T23:51:43 IST" duration-ms="581" status="PASS">
+        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:15:21 IST" name="browser" finished-at="2024-10-25T00:15:21 IST" duration-ms="621" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -457,7 +457,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method retried="true" signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:43 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-24T23:51:55 IST" duration-ms="12862" status="SKIP">
+        <test-method retried="true" signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:15:21 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-25T00:15:34 IST" duration-ms="12348" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -478,9 +478,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [4254b90ff100d89c222e1014bc155f5c, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:38661}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.sV...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4254b90ff100d89c222e1014bc155f5c]]>
+Command: [cf40ad21e02c52960fb5bc5bb7d87540, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:35159}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.Uf...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf40ad21e02c52960fb5bc5bb7d87540]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@role='option']/span)[1]"}
@@ -489,9 +489,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [4254b90ff100d89c222e1014bc155f5c, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:38661}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.sV...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4254b90ff100d89c222e1014bc155f5c
+Command: [cf40ad21e02c52960fb5bc5bb7d87540, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:35159}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.Uf...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf40ad21e02c52960fb5bc5bb7d87540
 at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -542,11 +542,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase_S6_054_Add_Product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:55 IST" name="tearDown" finished-at="2024-10-24T23:51:57 IST" duration-ms="1158" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:15:34 IST" name="tearDown" finished-at="2024-10-25T00:15:35 IST" duration-ms="1164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:57 IST" name="browser" finished-at="2024-10-24T23:51:57 IST" duration-ms="630" status="PASS">
+        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:15:35 IST" name="browser" finished-at="2024-10-25T00:15:35 IST" duration-ms="617" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -562,7 +562,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:51:57 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-24T23:52:10 IST" duration-ms="12394" status="FAIL">
+        <test-method signature="testCase_S6_054_Add_Product(java.lang.String,java.lang.String)[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:15:35 IST" name="testCase_S6_054_Add_Product" finished-at="2024-10-25T00:15:48 IST" duration-ms="12539" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -583,9 +583,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [2897b25f5c40388e22db6133b76b1c06, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:33143}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.XL...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2897b25f5c40388e22db6133b76b1c06]]>
+Command: [787beff68a1d80e8920c1a7c041b2fe0, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:38643}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.La...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 787beff68a1d80e8920c1a7c041b2fe0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@role='option']/span)[1]"}
@@ -594,9 +594,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [2897b25f5c40388e22db6133b76b1c06, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:33143}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.XL...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2897b25f5c40388e22db6133b76b1c06
+Command: [787beff68a1d80e8920c1a7c041b2fe0, findElement {using=xpath, value=(//a[@role='option']/span)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:38643}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.La...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 787beff68a1d80e8920c1a7c041b2fe0
 at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -647,37 +647,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase_S6_054_Add_Product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-24T23:52:10 IST" name="tearDown" finished-at="2024-10-24T23:52:11 IST" duration-ms="1198" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sprint6_Test_Rajesh.S6_054_Add_Product@1c5920df]" started-at="2024-10-25T00:15:48 IST" name="tearDown" finished-at="2024-10-25T00:15:49 IST" duration-ms="1175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- sprint6_Test_Rajesh.S6_054_Add_Product -->
     </test> <!-- sprint6_Rajesh -->
-    <test started-at="2024-10-24T23:52:11 IST" name="sprint6_Logeshwari" finished-at="2024-10-24T23:52:34 IST" duration-ms="22782">
+    <test started-at="2024-10-25T00:15:49 IST" name="sprint6_Logeshwari" finished-at="2024-10-25T00:16:19 IST" duration-ms="29687">
       <class name="sprint6_Logeshwari.S6_5_Create_Work_Type_Group">
-        <test-method signature="CreateWorkTypeGroup()[pri:0, instance:sprint6_Logeshwari.S6_5_Create_Work_Type_Group@1349883]" started-at="2024-10-24T23:52:11 IST" name="CreateWorkTypeGroup" finished-at="2024-10-24T23:52:34 IST" duration-ms="22782" status="FAIL">
+        <test-method signature="CreateWorkTypeGroup()[pri:0, instance:sprint6_Logeshwari.S6_5_Create_Work_Type_Group@1349883]" started-at="2024-10-25T00:15:49 IST" name="CreateWorkTypeGroup" finished-at="2024-10-25T00:16:19 IST" duration-ms="29683" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='slds-truncate']/mark[text()='Work Type Groups']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@title='Recently Viewed | Work Type Groups']//following-sibling::one-app-nav-bar-item-dropdown)[2]//one-app-nav-bar-menu-button/a"}
   (Session info: MicrosoftEdge=129.0.2792.79)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [72d72446ec1a7100e3db145d9e30fd12, findElement {using=xpath, value=//p[@class='slds-truncate']/mark[text()='Work Type Groups']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:41973}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.I2...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 72d72446ec1a7100e3db145d9e30fd12]]>
+Command: [8de37fb5dd37d25282df9714f632386d, findElement {using=xpath, value=(//a[@title='Recently Viewed | Work Type Groups']//following-sibling::one-app-nav-bar-item-dropdown)[2]//one-app-nav-bar-menu-button/a}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:42851}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.sH...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8de37fb5dd37d25282df9714f632386d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='slds-truncate']/mark[text()='Work Type Groups']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@title='Recently Viewed | Work Type Groups']//following-sibling::one-app-nav-bar-item-dropdown)[2]//one-app-nav-bar-menu-button/a"}
   (Session info: MicrosoftEdge=129.0.2792.79)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [72d72446ec1a7100e3db145d9e30fd12, findElement {using=xpath, value=//p[@class='slds-truncate']/mark[text()='Work Type Groups']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:41973}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.I2...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 72d72446ec1a7100e3db145d9e30fd12
+Command: [8de37fb5dd37d25282df9714f632386d, findElement {using=xpath, value=(//a[@title='Recently Viewed | Work Type Groups']//following-sibling::one-app-nav-bar-item-dropdown)[2]//one-app-nav-bar-menu-button/a}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:42851}, msedge: {msedgedriverVersion: 129.0.2792.86 (cca50bd2a45c..., userDataDir: /tmp/.com.microsoft.Edge.sH...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.2792.79, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8de37fb5dd37d25282df9714f632386d
 at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -692,7 +692,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at sprint6_Logeshwari.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup(S6_5_Create_Work_Type_Group.java:41)
+at sprint6_Logeshwari.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup(S6_5_Create_Work_Type_Group.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
