@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="323e3481-9aa2-47eb-8a24-2cc2ce5f019d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/CreateAccount_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/CreateAccount_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_11_Edit_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_11_Edit_Case.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_17_Create_Oppurtunity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_17_Create_Oppurtunity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_23_Create_Legal_Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_23_Create_Legal_Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_29_Edit_Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_29_Edit_Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_35_Sales_Force_Architect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_35_Sales_Force_Architect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_5_Create_Work_Type_Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_5_Create_Work_Type_Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_9_Work_Type_Group_SortByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_9_Work_Type_Group_SortByName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/DeleteDashboard.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/S6_050_CreateContactForCampaign.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/S6_051_DeleteContactAssociatedToCampaign.java" beforeDir="false" />
@@ -71,7 +61,7 @@
     "settings.editor.selected.configurable": "promo.profiler"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup">
+  <component name="RunManager" selected="TestNG.C:/Users/loges/IdeaProjects/SDET/testng.xml">
     <configuration name="C:/Users/loges/IdeaProjects/SDET/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDET" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -186,8 +176,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup" />
         <item itemvalue="TestNG.C:/Users/loges/IdeaProjects/SDET/testng.xml" />
+        <item itemvalue="TestNG.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup" />
         <item itemvalue="TestNG.S6_29_Edit_Dashboard.editDashboard" />
         <item itemvalue="TestNG.S6_17_Create_Oppurtunity" />
         <item itemvalue="TestNG.CreateAccount_1.createAccount" />
