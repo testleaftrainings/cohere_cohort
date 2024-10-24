@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323e3481-9aa2-47eb-8a24-2cc2ce5f019d" name="Changes" comment="" />
+    <list default="true" id="323e3481-9aa2-47eb-8a24-2cc2ce5f019d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/DeleteDashboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/S6_050_CreateContactForCampaign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/S6_051_DeleteContactAssociatedToCampaign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/S6_068_CreateNewLeads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/S6_36_BoardExamShedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/S6_45_Create_New_Opportunity_Campaign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/S8_18_OpportunitiesSortOrderByCloseDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,53 +34,105 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CreateNewDashboard_28.createNewDashboard.executor": "Run",
+    "JUnit.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup.executor": "Run",
+    "JUnit.S6_9_Work_Type_Group_SortByName.workTypeGroup.executor": "Run",
     "JUnit.s6_49_Delete_Lead.salesForce.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/loges/IdeaProjects/SDET/testng.xml.executor": "Run",
+    "TestNG.CreateAccount_1.createAccount.executor": "Run",
     "TestNG.CreateAccount_1.executor": "Run",
+    "TestNG.DeleteAccount03.executor": "Run",
+    "TestNG.S6_17_Create_Oppurtunity.createOppurtunity.executor": "Run",
+    "TestNG.S6_17_Create_Oppurtunity.executor": "Run",
+    "TestNG.S6_23_Create_Legal_Entity.executor": "Run",
+    "TestNG.S6_29_Edit_Dashboard.editDashboard.executor": "Run",
+    "TestNG.S6_35_Sales_Force_Architect.executor": "Run",
+    "TestNG.S6_37_VerifyAppStoreLoadedToDownloadSalesForceAStory.VerifyAppStore.executor": "Run",
+    "TestNG.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup.executor": "Run",
+    "TestNG.S6_5_Create_Work_Type_Group.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/loges/IdeaProjects/SDET",
     "onboarding.tips.debug.path": "C:/Users/loges/IdeaProjects/SDET_Logeshwari/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "promo.profiler"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CreateAccount_1">
-    <configuration name="CreateNewDashboard_28.createNewDashboard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SDET_Logeshwari" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sprint6_Logeshwari.s6_47_Del_Newly_Created_Oppurtunity" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sprint6_Logeshwari" />
-      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.CreateNewDashboard_28" />
-      <option name="METHOD_NAME" value="createNewDashboard" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="s6_49_Delete_Lead.salesForce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/loges/IdeaProjects/SDET/testng.xml">
+    <configuration name="C:/Users/loges/IdeaProjects/SDET/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDET" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sprint6_Logeshwari.s6_47_Del_Newly_Created_Oppurtunity" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sprint6_Logeshwari" />
-      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.s6_49_Delete_Lead" />
-      <option name="METHOD_NAME" value="salesForce" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAccount_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAccount_1.createAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDET" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sprint6_Logeshwari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="sprint6_Logeshwari" />
+      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.CreateAccount_1" />
+      <option name="METHOD_NAME" value="createAccount" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S6_17_Create_Oppurtunity" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDET" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sprint6_Logeshwari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="sprint6_Logeshwari" />
+      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.S6_17_Create_Oppurtunity" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S6_29_Edit_Dashboard.editDashboard" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDET" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sprint6_Logeshwari.*" />
@@ -78,19 +140,47 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sprint6_Logeshwari" />
-      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.CreateAccount_1" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.S6_29_Edit_Dashboard" />
+      <option name="METHOD_NAME" value="editDashboard" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="S6_5_Create_Work_Type_Group.CreateWorkTypeGroup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDET" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sprint6_Logeshwari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sprint6_Logeshwari" />
+      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.S6_5_Create_Work_Type_Group" />
+      <option name="METHOD_NAME" value="CreateWorkTypeGroup" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/loges/IdeaProjects/SDET/testng.xml" />
+      <item itemvalue="TestNG.S6_29_Edit_Dashboard.editDashboard" />
+      <item itemvalue="TestNG.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup" />
+      <item itemvalue="TestNG.CreateAccount_1.createAccount" />
+      <item itemvalue="TestNG.S6_17_Create_Oppurtunity" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CreateAccount_1" />
-        <item itemvalue="JUnit.s6_49_Delete_Lead.salesForce" />
-        <item itemvalue="JUnit.CreateNewDashboard_28.createNewDashboard" />
+        <item itemvalue="TestNG.C:/Users/loges/IdeaProjects/SDET/testng.xml" />
+        <item itemvalue="TestNG.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup" />
+        <item itemvalue="TestNG.S6_29_Edit_Dashboard.editDashboard" />
+        <item itemvalue="TestNG.S6_17_Create_Oppurtunity" />
+        <item itemvalue="TestNG.CreateAccount_1.createAccount" />
       </list>
     </recent_temporary>
   </component>

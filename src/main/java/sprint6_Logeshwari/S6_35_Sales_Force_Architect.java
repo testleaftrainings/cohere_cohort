@@ -1,7 +1,6 @@
 package sprint6_Logeshwari;
 
 import io.github.sukgu.Shadow;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -9,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 import java.time.Duration;
 import java.util.List;
@@ -32,7 +32,7 @@ public class S6_35_Sales_Force_Architect {
 
         // Login with username and password.
         driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-        driver.findElement(By.id("password")).sendKeys("Leaf$321");
+        driver.findElement(By.id("password")).sendKeys("Leaf@123");
         driver.findElement(By.id("Login")).click();
 
         // Click on Learn More link in Mobile Publisher

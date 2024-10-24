@@ -1,12 +1,13 @@
 package sprint6_Logeshwari;
 
-import org.junit.Test;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
 
 import java.time.Duration;
 import java.util.HashMap;
@@ -31,7 +32,7 @@ public class S6_17_Create_Oppurtunity {
         // 1. Login to https://login.salesforce.com
         driver.get("https://login.salesforce.com/");
         driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-        driver.findElement(By.id("password")).sendKeys("Leaf$321");
+        driver.findElement(By.id("password")).sendKeys("Leaf@123");
         driver.findElement(By.id("Login")).click();
 
         // 2. Click on toggle menu button from the left corner
