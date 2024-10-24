@@ -1,4 +1,4 @@
-package learning;
+package sprint6_Rajeev;
 
 import java.time.Duration;
 import org.openqa.selenium.By;

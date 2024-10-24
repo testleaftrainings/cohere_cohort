@@ -15,8 +15,8 @@ public class S6_050_CreateContactForCampaign {
 	
 	@Test
 	public void s6_050_CreateContactForCampaign() throws InterruptedException {
-		String FirstName = "Vaishnavi";
-		String LastName = "Krishnan";
+		String FirstName = "Rajeev";
+		String LastName = "Isaac";
 		String FullName = FirstName + " " +LastName;
 		System.out.println(FullName);
 		
