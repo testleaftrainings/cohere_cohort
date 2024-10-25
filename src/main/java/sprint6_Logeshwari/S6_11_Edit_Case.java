@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -26,13 +27,13 @@ import sprint6_Rajesh.RetryEvent;
 public class S6_11_Edit_Case {
     @Test (retryAnalyzer = RetryEvent.class)
     public void editCase() throws MalformedURLException, InterruptedException {
-    	ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-notifications");
+    	EdgeOptions edgeOptions = new EdgeOptions();
+		edgeOptions.addArguments("--disable-notifications");
         //ChromeDriver driver = new ChromeDriver(options);
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setBrowserName("MicrosoftEdge");
         dc.setPlatform(Platform.LINUX);
-        dc.setCapability(ChromeOptions.CAPABILITY, options);
+        dc.setCapability(ChromeOptions.CAPABILITY, edgeOptions);
         RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));

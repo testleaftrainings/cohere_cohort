@@ -88,7 +88,7 @@ public class S6_54_AddProductNewCase extends BaseClass {
 
 		//		Click on save 
 
-		System.out.println(driver.getCurrentUrl());
+	
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[text()='Subject']//following::span[text()='Save']")).click();
 		
