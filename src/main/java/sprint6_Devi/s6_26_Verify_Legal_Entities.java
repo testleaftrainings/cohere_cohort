@@ -10,13 +10,16 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class s6_26_Verify_Legal_Entities {
 @Test
 public void verifyLegalEntities() throws ParseException, InterruptedException {
-	ChromeDriver driver = new ChromeDriver();
+	ChromeOptions options = new ChromeOptions();
+    options.addArguments("--disable-notifications");
+	ChromeDriver driver = new ChromeDriver(options);
 	//Step 1: Launch the salesforce app
 	driver.get("https://login.salesforce.com/");
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
