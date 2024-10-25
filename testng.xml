@@ -37,5 +37,15 @@
 		/> </classes> </test> -->
 
 	<!-- Logeshwari TestCase -->
+	
+	<!-- Devi TestCase -->
 
+     <test thread-count="5" name="DeviTest">
+        <classes>
+           <class name="sprint6_Devi.s6_26_Verify_Legal_Entities"/>
+        </classes>
+     </test> <!-- Test -->
+     
+     <!-- Devi TestCase -->
+     
 </suite> <!-- CombinedSuite -->
