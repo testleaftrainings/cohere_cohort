@@ -71,7 +71,7 @@ public class BaseClass {
 			DesiredCapabilities edgeDC = new DesiredCapabilities();
 			edgeDC.setBrowserName("MicrosoftEdge");
 			edgeDC.setPlatform(Platform.LINUX);
-			edgeDC.setCapability(ChromeOptions.CAPABILITY, edgeOptions);
+			edgeDC.setCapability(EdgeOptions.CAPABILITY, edgeOptions);
 
 			driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), edgeDC);
 			break;

@@ -3,16 +3,10 @@ package sprint6_Logeshwari;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
-import java.util.HashMap;
-import java.util.Map;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Platform;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -28,13 +22,14 @@ public class S6_11_Edit_Case {
     @Test (retryAnalyzer = RetryEvent.class)
     public void editCase() throws MalformedURLException, InterruptedException {
     	EdgeOptions edgeOptions = new EdgeOptions();
-		edgeOptions.addArguments("--disable-notifications");
-        //ChromeDriver driver = new ChromeDriver(options);
-        DesiredCapabilities dc = new DesiredCapabilities();
-        dc.setBrowserName("MicrosoftEdge");
-        dc.setPlatform(Platform.LINUX);
-        dc.setCapability(edgeOptions.CAPABILITY, edgeOptions);
-        RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
+		edgeOptions.addArguments("--disable-notifications"); 
+		edgeOptions.setPlatformName("LINUX"); 
+		DesiredCapabilities edgeDC = new DesiredCapabilities();
+		edgeDC.setBrowserName("MicrosoftEdge");
+		edgeDC.setPlatform(Platform.LINUX);
+		edgeDC.setCapability(EdgeOptions.CAPABILITY, edgeOptions);
+
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), edgeDC);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
