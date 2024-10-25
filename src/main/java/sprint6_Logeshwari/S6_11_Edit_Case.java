@@ -1,33 +1,43 @@
 package sprint6_Logeshwari;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+
+import sprint6_Rajesh.RetryEvent;
 
 
 
 public class S6_11_Edit_Case {
-    @Test
-    public void editCase() {
-
-        // Set up Chrome options to disable notifications
-        Map<String, Object> prefs = new HashMap<>();
-        prefs.put("profile.default_content_setting_values.notifications", 2);
-        ChromeOptions options = new ChromeOptions();
-        options.setExperimentalOption("prefs", prefs);
-
-        // Initialize the WebDriver with the options
-        WebDriver driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+    @Test (retryAnalyzer = RetryEvent.class)
+    public void editCase() throws MalformedURLException, InterruptedException {
+    	ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-notifications");
+        //ChromeDriver driver = new ChromeDriver(options);
+        DesiredCapabilities dc = new DesiredCapabilities();
+        dc.setBrowserName("MicrosoftEdge");
+        dc.setPlatform(Platform.LINUX);
+        dc.setCapability(ChromeOptions.CAPABILITY, options);
+        RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
         driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        
 
         // 1. Login to https://login.salesforce.com
         driver.get("https://login.salesforce.com/");
@@ -39,25 +49,30 @@ public class S6_11_Edit_Case {
         driver.findElement(By.xpath("//button[@title='App Launcher']/div[1]")).click();
 
         // 3. Click view All and click Sales from App Launcher
-        driver.findElement(By.xpath("//button[text()='View All']")).click();
-        driver.findElement(By.xpath("//p[text()='Sales']")).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[text()='View All']"))).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//p[text()='Sales']"))).click();
+       
 
         // 4. Click on Cases tab visible or select from more.
-        WebElement eleMore = driver.findElement(By.xpath("//a[@class='slds-button slds-button_reset slds-context-bar__label-action']//span[text()='More']"));
+        Thread.sleep(3000);
+        WebElement eleMore = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='More']")));
+//        WebElement eleMore = driver.findElement(By.xpath("//span[text()='More']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleMore);
-
-        WebElement eleCases = driver.findElement(By.xpath("//div[@class='slds-dropdown slds-dropdown_length-with-icon-10 slds-dropdown_right']//span[text()='Cases']"));
+        Thread.sleep(2000);
+        WebElement eleCases = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='Cases']")));
+//        WebElement eleCases = driver.findElement(By.xpath("//div[@class='slds-dropdown slds-dropdown_length-with-icon-10 slds-dropdown_right']//span[text()='Cases']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleCases);
 
         // 5. Click on the Dropdown icon and select Edit from the case you created by reffering 'case owner alias'
-
-        WebElement eleDropdown =  driver.findElement(By.xpath("(//td[@class='slds-cell-edit cellContainer']//a[@role='button'])[1]"));
+        WebElement eleDropdown = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//td[@class='slds-cell-edit cellContainer']//a[@role='button'])[1]")));
+//        WebElement eleDropdown =  driver.findElement(By.xpath("(//td[@class='slds-cell-edit cellContainer']//a[@role='button'])[1]"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleDropdown);
 
         WebElement eleEdit =  driver.findElement(By.xpath("//a[@title='Edit']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleEdit);
 
         // 6. Update Status as Working
+        
         WebElement eleStatus =  driver.findElement(By.xpath("//label[text()='Status']/following-sibling::div//button"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleStatus);
 
@@ -91,7 +106,7 @@ public class S6_11_Edit_Case {
 
 
 
-        //driver.quit();
+        driver.quit();
 
     }
 }

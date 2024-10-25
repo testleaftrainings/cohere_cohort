@@ -33,8 +33,12 @@
 	<!-- Logeshwari TestCase -->
 	<!-- browser chrome edge firefox mode: true: remote false: normal -->
 
-	<!-- <test thread-count="5" name="Test"> <classes> <class name="sprint6_Logeshwari.S6_9_Work_Type_Group_SortByName" 
-		/> </classes> </test> -->
+	<test thread-count="5" name="sprint6_Logeshwari">
+		<classes>
+			<class
+				name="sprint6_Logeshwari.S6_11_Edit_Case" />
+		</classes>
+	</test>
 
 	<!-- Logeshwari TestCase -->
 

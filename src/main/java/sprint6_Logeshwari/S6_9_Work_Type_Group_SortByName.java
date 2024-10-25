@@ -39,6 +39,7 @@ public class S6_9_Work_Type_Group_SortByName {
         driver.findElement(By.id("Login")).click();
 
         // 2. Click on the toggle menu button from the left corner
+        
         driver.findElement(By.xpath("//button[@title='App Launcher']/div[1]")).click();
 
         // 3. Click View All and click Work Type Groups from App Launcher
