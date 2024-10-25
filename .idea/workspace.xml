@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="323e3481-9aa2-47eb-8a24-2cc2ce5f019d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/CreateAccount_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/CreateAccount_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_5_Create_Work_Type_Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_5_Create_Work_Type_Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_9_Work_Type_Group_SortByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_9_Work_Type_Group_SortByName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/DeleteDashboard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajeev/S6_068_CreateNewLeads.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_71_CreateNewContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_72_EditContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sprint6_Test_Rajesh/S6_71_Create_New_Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sprint6_Test_Rajesh/S6_72_Edit_Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_07_DeleteWorkTypeGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_07_DeleteWorkTypeGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_13CreateCaseWithoutMandatoryFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_13CreateCaseWithoutMandatoryFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_19_CreateContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_19_CreateContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_25_CreateLegalEntityWithoutMandatoryFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_25_CreateLegalEntityWithoutMandatoryFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_31_VerifyDashboardsSortOrderByDashboardName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_31_VerifyDashboardsSortOrderByDashboardName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_53_AddProductWithOpportunity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_53_AddProductWithOpportunity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_54_AddProductNewCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_54_AddProductNewCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sprint6_Test_Rajesh/S6_054_Add_Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sprint6_Test_Rajesh/S6_054_Add_Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_70CreateLeadsWithoutMandatoryFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_70CreateLeadsWithoutMandatoryFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/SaleforceLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/SaleforceLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +63,7 @@
     "TestNG.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup.executor": "Run",
     "TestNG.S6_5_Create_Work_Type_Group.executor": "Run",
     "TestNG.S6_9_Work_Type_Group_SortByName.workTypeGroup.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Merging master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/loges/IdeaProjects/SDET",
