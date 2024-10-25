@@ -18,7 +18,7 @@ package sprint6_Devi;
 		
 		//Step 2: Login with the credentials
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-		driver.findElement(By.id("password")).sendKeys("Leaf$321");
+		driver.findElement(By.id("password")).sendKeys("Leaf@123");
 		driver.findElement(By.id("Login")).click();
 		
 		//Step 3: Click on the App Laucher Icon left to Setup

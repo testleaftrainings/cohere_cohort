@@ -19,7 +19,7 @@ public void createNewRefund() {
 	
 	//Step : Login with the credentials
 	driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-	driver.findElement(By.id("password")).sendKeys("Leaf$321");
+	driver.findElement(By.id("password")).sendKeys("Leaf@123");
 	
 	//Step : Click Login
 	driver.findElement(By.id("Login")).click();
