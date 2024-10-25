@@ -5,7 +5,7 @@
 
 	<!-- Gokul TestCase -->
 
-	<test thread-count="5" name="Test">
+	<test thread-count="5"  name="Test">
 		<classes>
 			<class name="sprint6_Gokul.CustomerServiceOptions33" />
 		</classes>
@@ -18,7 +18,7 @@
 	<!-- Rajesh TestCase -->
 	<!-- browser chrome edge firefox mode: true= remote false=normal -->
 	<test thread-count="5" name="sprint6_Rajesh">
-		<parameter name="mode" value="false" />
+		<parameter name="mode" value="true" />
 		<parameter name="browser" value="edge" />
 		<parameter name="userName" value="gokul.sekar@testleaf.com" />
 		<parameter name="password" value="Leaf@123" />
