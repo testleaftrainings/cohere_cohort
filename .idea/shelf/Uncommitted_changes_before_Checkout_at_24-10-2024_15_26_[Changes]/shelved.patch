@@ -1,0 +1,23 @@
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"SDET_Logeshwari\" />\r\n        <module name=\"SDET\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision 2a93d5e0846db336255d817f127f14f6ab21298b)
++++ b/.idea/compiler.xml	(date 1729763715634)
+@@ -7,8 +7,10 @@
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
+         <module name="SDET_Logeshwari" />
+-        <module name="SDET" />
+       </profile>
+     </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="SDET" target="11" />
++    </bytecodeTargetLevel>
+   </component>
+ </project>
+\ No newline at end of file

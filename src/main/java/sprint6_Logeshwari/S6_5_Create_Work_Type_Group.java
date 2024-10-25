@@ -36,17 +36,19 @@ public class S6_5_Create_Work_Type_Group {
         driver.findElement(By.xpath("//button[@title='App Launcher']/div[1]")).click();
 
         // 3. Click View All and click Work Type Groups from App Launcher
+        Thread.sleep(5000);
         driver.findElement(By.xpath("//button[text()='View All']")).click();
         driver.findElement(By.xpath("//input[@placeholder='Search apps or items...']")).sendKeys("Work Type Groups");
         WebElement eleType = driver.findElement(By.xpath("//p[@class='slds-truncate']/mark[text()='Work Type Groups']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleType);
 
         // 4. Click on the Dropdown icon in the Work Type Groups tab
-        Thread.sleep(5000);
-        WebElement eleDropdown = driver.findElement(By.xpath("(//a[@title='Recently Viewed | Work Type Groups']//following-sibling::one-app-nav-bar-item-dropdown)[2]//one-app-nav-bar-menu-button/a"));
+        Thread.sleep(10000);
+        WebElement eleDropdown = driver.findElement(By.xpath("(//a[@title='Recently Viewed | Work Type Groups'])[2]//following::one-app-nav-bar-item-dropdown"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleDropdown);
 
         // 5. Click on New Work Type Group
+        Thread.sleep(3000);
         WebElement eleNewWorkTypeGroup = driver.findElement(By.xpath("//span[text()='New Work Type Group']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", eleNewWorkTypeGroup);
 
