@@ -33,7 +33,7 @@ public class S6_11_Edit_Case {
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setBrowserName("MicrosoftEdge");
         dc.setPlatform(Platform.LINUX);
-        dc.setCapability(ChromeOptions.CAPABILITY, edgeOptions);
+        dc.setCapability(edgeOptions.CAPABILITY, edgeOptions);
         RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));

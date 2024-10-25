@@ -15,9 +15,11 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
+import sprint6_Rajesh.RetryEvent;
+
 public class S6_050_CreateContactForCampaign {
 	
-	@Test
+	@Test(retryAnalyzer = RetryEvent.class)
 	public void s6_050_CreateContactForCampaign() throws InterruptedException, MalformedURLException {
 		String FirstName = "Rajeev";
 		String LastName = "Isaac";
@@ -59,8 +61,22 @@ public class S6_050_CreateContactForCampaign {
 		
 		// Click view All and click Sales from App Launcher 
 		
-		driver.findElement(By.xpath("//button[text()='View All']")).click();
-		driver.findElement(By.xpath("//p[text()='Sales']")).click();
+		try {
+			driver.findElement(By.xpath("//button[text()='View All']")).click();
+		} catch (Exception e) {
+			driver.navigate().refresh();
+		}
+		try {
+			WebElement eleLegalEntities = driver.findElement(By.xpath("//p[text()='Sales']"));
+			driver.executeScript("arguments[0].click();", eleLegalEntities);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			driver.navigate().refresh();
+			Thread.sleep(2000);
+			WebElement eleLegalEntities = driver.findElement(By.xpath("//p[text()='Sales']"));
+			driver.executeScript("arguments[0].click();", eleLegalEntities);
+		}
+		
 		
 		// Click on Campaigns tab  
 		Thread.sleep(3000);

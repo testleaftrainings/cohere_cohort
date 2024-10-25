@@ -29,11 +29,11 @@ public class s6_26_Verify_Legal_Entities {
 	public void verifyLegalEntities() throws ParseException, InterruptedException, MalformedURLException {
 		EdgeOptions edgeOptions = new EdgeOptions();
 		edgeOptions.addArguments("--disable-notifications");
-        
-        DesiredCapabilities dc = new DesiredCapabilities();
-        dc.setBrowserName("MicrosoftEdge");
-        dc.setPlatform(Platform.LINUX);
-        dc.setCapability(ChromeOptions.CAPABILITY, edgeOptions);
+
+		DesiredCapabilities dc = new DesiredCapabilities();
+		dc.setCapability(EdgeOptions.CAPABILITY, edgeOptions); // Use EdgeOptions.CAPABILITY for Edge
+		dc.setBrowserName("MicrosoftEdge");
+		dc.setPlatform(Platform.LINUX);
         RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
