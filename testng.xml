@@ -5,7 +5,7 @@
 
 	<!-- Gokul TestCase -->
 
-	<test thread-count="5"  name="Test">
+	<test thread-count="5" name="Test">
 		<classes>
 			<class name="sprint6_Gokul.CustomerServiceOptions33" />
 		</classes>
@@ -33,11 +33,8 @@
 	<!-- Logeshwari TestCase -->
 	<!-- browser chrome edge firefox mode: true: remote false: normal -->
 
-	<test thread-count="5" name="Test">
-		<classes>
-			<class name="sprint6_Logeshwari.S6_9_Work_Type_Group_SortByName" />
-		</classes>
-	</test> <!-- Test3 -->
+	<!-- <test thread-count="5" name="Test"> <classes> <class name="sprint6_Logeshwari.S6_9_Work_Type_Group_SortByName" 
+		/> </classes> </test> -->
 
 	<!-- Logeshwari TestCase -->
 
