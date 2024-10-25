@@ -31,7 +31,7 @@ public class S6_54_AddProductNewCase extends BaseClass {
 		//		Click view All 
 
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@title='Close']//following::button"))).click();
-		
+
 
 		//		Click on Content tab 
 
@@ -40,14 +40,17 @@ public class S6_54_AddProductNewCase extends BaseClass {
 
 
 		//		Click View All Key Deals in Key Deals 
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@data-component-id='home_topDealsContainer']//span[@class='viewAllLabel']"))).click();
+		WebElement viewAllButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@data-component-id='home_topDealsContainer']//span[@class='viewAllLabel']")));
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();",viewAllButton);
+		viewAllButton.click();
 
 
 
 		//		Click the dropdown from Opportunities and select All Opportunities 
-
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//span[text()='Recently Viewed'])[1]"))).click();
-
+		Thread.sleep(2000);
+		WebElement recent = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//span[text()='Recently Viewed'])[1]")));
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", recent);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//a[@role='option']/span)[1]")).click();
 
 
@@ -58,7 +61,7 @@ public class S6_54_AddProductNewCase extends BaseClass {
 		searchBox.sendKeys(customer);
 
 		WebElement refresh = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@title='Refresh']")));
-		
+
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", refresh);
 
 
@@ -68,6 +71,8 @@ public class S6_54_AddProductNewCase extends BaseClass {
 
 
 		//	Click on New Case, Click inside the Contact Name and select the first contact 
+		Thread.sleep(2000);
+
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//button[@class='slds-button slds-button_neutral'])[1]"))).click();
 
 
