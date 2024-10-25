@@ -29,6 +29,14 @@
 
 	<!-- Rajesh TestCase -->
 
+	<!-- Rajeev TestCase -->
+	<!-- browser chrome edge firefox mode: true= remote false=normal -->
+	<test thread-count="5" name="sprint6_Rajeev">
+		<classes>
+			<class name="sprint6_Rajeev.S6_050_CreateContactForCampaign" />
+		</classes>
+	</test> <!-- Test3 -->
+
 	<!-- Test3 -->
 	<!-- Logeshwari TestCase -->
 	<!-- browser chrome edge firefox mode: true: remote false: normal -->

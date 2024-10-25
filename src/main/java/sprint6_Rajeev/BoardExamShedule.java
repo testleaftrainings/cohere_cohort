@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -21,15 +22,17 @@ public class BoardExamShedule {
 	public void editEntity() throws InterruptedException
 	{
 
-		ChromeDriver driver = new ChromeDriver();
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.addArguments("--disable-notifications");
+		ChromeDriver driver = new ChromeDriver(chromeOptions);
 		driver.get("https://login.salesforce.com/");
-		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(30000));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.manage().window().maximize();
 
 		//Step 1: Login to Login | Salesforce
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
 		Thread.sleep(2000);
-		driver.findElement(By.id("password")).sendKeys("Leaf$321");
+		driver.findElement(By.id("password")).sendKeys("Leaf@123");
 		Thread.sleep(2000);
 		driver.findElement(By.id("Login")).click();
 		Thread.sleep(2000);

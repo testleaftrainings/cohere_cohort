@@ -18,18 +18,17 @@ public class S6_051_DeleteContactAssociatedToCampaign {
 		String FirstName = "Rajeev";
 		String LastName = "Isaac";
 		String FullName = FirstName + " " +LastName;
-		
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--disable-notifications");
 
-		ChromeDriver driver = new ChromeDriver(options);
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.addArguments("--disable-notifications");
+		ChromeDriver driver = new ChromeDriver(chromeOptions);
 		driver.get("https://login.salesforce.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.manage().window().maximize();
 		
 		// Login to https://login.salesforce.com 
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-		driver.findElement(By.id("password")).sendKeys("Leaf$321");
+		driver.findElement(By.id("password")).sendKeys("Leaf@123");
 		driver.findElement(By.id("Login")).click();
 		
 		
