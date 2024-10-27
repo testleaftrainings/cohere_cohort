@@ -95,7 +95,7 @@ public class nba_assessment {
 		
 	
 		 int minAge = Integer.MAX_VALUE;
-	        int noOfRows = driver.findElements(By.xpath("//th[text()='Age']/following::tbody//tr")).size();
+	        int noOfRows = driver.findElements(By.xpath("//th[text()='Age']/following::tbody/tr/td[4]")).size();
 	        System.out.println("Number of rows found: " + noOfRows);
 	        int rowIndexOfLowestAge = -1;
 
