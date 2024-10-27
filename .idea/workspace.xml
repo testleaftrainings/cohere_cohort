@@ -5,26 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="323e3481-9aa2-47eb-8a24-2cc2ce5f019d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_71_CreateNewContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_72_EditContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sprint6_Test_Rajesh/S6_71_Create_New_Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sprint6_Test_Rajesh/S6_72_Edit_Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_07_DeleteWorkTypeGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_07_DeleteWorkTypeGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_13CreateCaseWithoutMandatoryFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_13CreateCaseWithoutMandatoryFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_19_CreateContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_19_CreateContact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_25_CreateLegalEntityWithoutMandatoryFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_25_CreateLegalEntityWithoutMandatoryFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_31_VerifyDashboardsSortOrderByDashboardName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_31_VerifyDashboardsSortOrderByDashboardName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_53_AddProductWithOpportunity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_53_AddProductWithOpportunity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_54_AddProductNewCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_54_AddProductNewCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_70CreateLeadsWithoutMandatoryFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/S6_70CreateLeadsWithoutMandatoryFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/SaleforceLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sprint6_Rajesh/SaleforceLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/Assessment_Nba_Testcase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_85_SalesForce_Classic_NewAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sprint6_Logeshwari/S6_86_Newly_Created_PostDeleted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +41,8 @@
     "JUnit.S6_9_Work_Type_Group_SortByName.workTypeGroup.executor": "Run",
     "JUnit.s6_49_Delete_Lead.salesForce.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Assessment_Nba_Testcase.nbaTest (1).executor": "Run",
+    "TestNG.Assessment_Nba_Testcase.nbaTest.executor": "Run",
     "TestNG.C:/Users/loges/IdeaProjects/SDET/testng.xml.executor": "Run",
     "TestNG.CreateAccount_1.createAccount.executor": "Run",
     "TestNG.CreateAccount_1.executor": "Run",
@@ -62,8 +61,13 @@
     "TestNG.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup (1).executor": "Run",
     "TestNG.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup.executor": "Run",
     "TestNG.S6_5_Create_Work_Type_Group.executor": "Run",
+    "TestNG.S6_85_SalesForce_Classic_NewAccount.classicNewAccount (1).executor": "Run",
+    "TestNG.S6_85_SalesForce_Classic_NewAccount.classicNewAccount.executor": "Run",
+    "TestNG.S6_85_SalesForce_Classic_NewAccount.editCase.executor": "Run",
+    "TestNG.S6_85_SalesForce_Classic_NewAccount.executor": "Run",
+    "TestNG.S6_86_Newly_Created_PostDeleted.deleteNewlyCreatedPost.executor": "Run",
     "TestNG.S6_9_Work_Type_Group_SortByName.workTypeGroup.executor": "Run",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/loges/IdeaProjects/SDET",
@@ -74,8 +78,8 @@
     "settings.editor.selected.configurable": "promo.profiler"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.S6_9_Work_Type_Group_SortByName.workTypeGroup">
-    <configuration name="CreateAccount_1.createAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/loges/IdeaProjects/SDET/testng.xml">
+    <configuration name="Assessment_Nba_Testcase.nbaTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SepSDET" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +88,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sprint6_Logeshwari" />
-      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.CreateAccount_1" />
-      <option name="METHOD_NAME" value="createAccount" />
+      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.Assessment_Nba_Testcase" />
+      <option name="METHOD_NAME" value="nbaTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S6_35_Sales_Force_Architect.salesForce" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Assessment_Nba_Testcase.nbaTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SepSDET" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +106,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sprint6_Logeshwari" />
-      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.S6_35_Sales_Force_Architect" />
-      <option name="METHOD_NAME" value="salesForce" />
+      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.Assessment_Nba_Testcase" />
+      <option name="METHOD_NAME" value="nbaTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,24 +115,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S6_5_CreateWorkTypeGroup.test5" type="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sprint1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sprint1" />
-      <option name="MAIN_CLASS_NAME" value="sprint1.S6_5_CreateWorkTypeGroup" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration name="C:/Users/loges/IdeaProjects/SDET/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SepSDET" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S6_5_Create_Work_Type_Group.CreateWorkTypeGroup (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="S6_85_SalesForce_Classic_NewAccount.classicNewAccount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SepSDET" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sprint6_Logeshwari" />
-      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.S6_5_Create_Work_Type_Group" />
-      <option name="METHOD_NAME" value="CreateWorkTypeGroup" />
+      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.S6_85_SalesForce_Classic_NewAccount" />
+      <option name="METHOD_NAME" value="classicNewAccount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,7 +143,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S6_9_Work_Type_Group_SortByName.workTypeGroup" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="S6_86_Newly_Created_PostDeleted.deleteNewlyCreatedPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SepSDET" />
       <extension name="coverage">
         <pattern>
@@ -155,8 +152,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sprint6_Logeshwari" />
-      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.S6_9_Work_Type_Group_SortByName" />
-      <option name="METHOD_NAME" value="workTypeGroup" />
+      <option name="MAIN_CLASS_NAME" value="sprint6_Logeshwari.S6_86_Newly_Created_PostDeleted" />
+      <option name="METHOD_NAME" value="deleteNewlyCreatedPost" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.S6_5_CreateWorkTypeGroup.test5" />
-      <item itemvalue="TestNG.S6_9_Work_Type_Group_SortByName.workTypeGroup" />
-      <item itemvalue="TestNG.CreateAccount_1.createAccount" />
-      <item itemvalue="TestNG.S6_35_Sales_Force_Architect.salesForce" />
-      <item itemvalue="TestNG.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup (1)" />
+      <item itemvalue="TestNG.Assessment_Nba_Testcase.nbaTest" />
+      <item itemvalue="TestNG.Assessment_Nba_Testcase.nbaTest (1)" />
+      <item itemvalue="TestNG.C:/Users/loges/IdeaProjects/SDET/testng.xml" />
+      <item itemvalue="TestNG.S6_85_SalesForce_Classic_NewAccount.classicNewAccount" />
+      <item itemvalue="TestNG.S6_86_Newly_Created_PostDeleted.deleteNewlyCreatedPost" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.S6_9_Work_Type_Group_SortByName.workTypeGroup" />
-        <item itemvalue="TestNG.S6_5_CreateWorkTypeGroup.test5" />
-        <item itemvalue="TestNG.S6_5_Create_Work_Type_Group.CreateWorkTypeGroup (1)" />
-        <item itemvalue="TestNG.CreateAccount_1.createAccount" />
-        <item itemvalue="TestNG.S6_35_Sales_Force_Architect.salesForce" />
+        <item itemvalue="TestNG.C:/Users/loges/IdeaProjects/SDET/testng.xml" />
+        <item itemvalue="TestNG.Assessment_Nba_Testcase.nbaTest" />
+        <item itemvalue="TestNG.Assessment_Nba_Testcase.nbaTest (1)" />
+        <item itemvalue="TestNG.S6_86_Newly_Created_PostDeleted.deleteNewlyCreatedPost" />
+        <item itemvalue="TestNG.S6_85_SalesForce_Classic_NewAccount.classicNewAccount" />
       </list>
     </recent_temporary>
   </component>

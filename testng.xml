@@ -44,7 +44,7 @@
 	<test thread-count="5" name="sprint6_Logeshwari">
 		<classes>
 			<class
-				name="sprint6_Logeshwari.S6_11_Edit_Case" />
+				name="sprint6_Logeshwari.Assessment_Nba_Testcase" />
 		</classes>
 	</test>
 
