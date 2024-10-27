@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-<!-- browser chrome edge firefox mode: true= remote false=normal -->
-	<test thread-count="5" name="Test">
+	<!-- browser chrome edge firefox mode: true= remote false=normal -->
+	<!-- <test thread-count="5" name="Test"> <parameter name="mode" value="false" 
+		/> <parameter name="browser" value="edge" /> <parameter name="userName" value="learners@testleaf.com" 
+		/> <parameter name="password" value="Leaf@1234" /> <classes> <class name="sprint6_Test_Rajesh.S6_89_Classic_NewAccount" 
+		/> <class name="sprint6_Test_Rajesh.S6_90_Vrfy_Newly_Created" /> </classes> 
+		</test> --><!-- Test -->
+
+	<!-- browser chrome edge firefox mode: true= remote false=normal -->
+	<!-- <test thread-count="5" name="sprint6_Rajesh"> <parameter name="mode" 
+		value="true" /> <parameter name="browser" value="edge" /> <parameter name="userName" 
+		value="gokul.sekar@testleaf.com" /> <parameter name="password" value="Leaf@123" 
+		/> <classes> <class name="sprint6_Test_Rajesh.S6_054_Add_Product" /> </classes> 
+		</test> --><!-- Test2 -->
+
+	<test thread-count="5" name="sprint6_Rajesh">
+		<parameter name="mode" value="false" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="sprint6_Test_Rajesh.NBATestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="sprint6_RajeshNBA">
 		<parameter name="mode" value="false" />
 		<parameter name="browser" value="edge" />
-		<parameter name="userName" value="learners@testleaf.com" />
-		<parameter name="password" value="Leaf@1234" />
 		<classes>
-			<class name="sprint6_Test_Rajesh.S6_89_Classic_NewAccount" />
-			<class name="sprint6_Test_Rajesh.S6_90_Vrfy_Newly_Created" />
+			<class name="sprint6_Test_Rajesh.NBATestCase" />
 		</classes>
-	</test> <!-- Test -->
-	
-	<!-- browser chrome edge firefox mode: true= remote false=normal -->
-	<test thread-count="5" name="sprint6_Rajesh">
-		<parameter name="mode" value="true" />
-		<parameter name="browser" value="edge" />
-		<parameter name="userName" value="gokul.sekar@testleaf.com" />
-		<parameter name="password" value="Leaf@123" />
-		<classes>
-			<class name="sprint6_Test_Rajesh.S6_054_Add_Product" />
-		</classes>
-	</test> <!-- Test2 -->
-
+	</test>
 
 </suite> <!-- Suite -->
