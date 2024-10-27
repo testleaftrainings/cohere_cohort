@@ -95,7 +95,7 @@ public class nba_assessment {
 		
 	
 		 int minAge = Integer.MAX_VALUE;
-	        int noOfRows = driver.findElements(By.xpath("//th[text()='Age']/following::tbody//tr")).size();
+	        int noOfRows = driver.findElements(By.xpath("//th[text()='Age']/following::tbody/tr/td[4]")).size();
 	        System.out.println("Number of rows found: " + noOfRows);
 	        int rowIndexOfLowestAge = -1;
 
@@ -115,7 +115,7 @@ public class nba_assessment {
 		
 		// Step 8. Click on the Profile
 		
-		 driver.findElement(By.xpath("//th[text()='Age']//following::tbody//tr["+ rowIndexOfLowestAge +"]//td[2]")).getText();
+		 driver.findElement(By.xpath("//th[text()='Age']//following::tbody//tr["+ rowIndexOfLowestAge +"]//td[2]")).click();
 		
 		// Step 9. Get the Experience of the player
 		 
@@ -124,7 +124,7 @@ public class nba_assessment {
 		
 		// Step 10. Verify the player experience as 1.
 
-		 Assert.assertEquals(experience, "1");
+		 Assert.assertEquals(experience, "1 Year");
 		 
 		
 	}
