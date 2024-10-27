@@ -55,8 +55,8 @@ public class CreateAccount_1 {
             // Click save and verify Account name
             driver.findElement(By.xpath("//label[text()='Description']/following::button[text()='Save']")).click();
             Thread.sleep(2000);
-            String text = driver.findElement(By.xpath("//div[contains(@id,'toastDescription')]")).getText();
-            System.out.println(text);
+            //String text = driver.findElement(By.xpath("//div[contains(@id,'toastDescription')]")).getText();
+            //System.out.println(text);
 
             // Close the driver
             driver.quit();

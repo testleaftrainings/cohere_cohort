@@ -26,7 +26,7 @@ public class S6_054_Add_Product  extends BaseClass {
 	@Test(retryAnalyzer = RetryEvent.class)
 	public void testCase_S6_054_Add_Product(String userName,String password) throws InterruptedException {
 
-		SaleforceLogin login = new SaleforceLogin(driver);  
+		SaleforceLogin login = new SaleforceLogin(driver);
 		login.saleForceLogin(userName,password);
 		S6_54_AddProductNewCase aP = new S6_54_AddProductNewCase(driver);
 		aP.addProduct();

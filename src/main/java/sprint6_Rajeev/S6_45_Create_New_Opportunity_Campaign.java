@@ -18,7 +18,7 @@ public class S6_45_Create_New_Opportunity_Campaign {
 		driver.manage().window().maximize();
 		// Step 1: Login to Login | Salesforce
 		driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
-		driver.findElement(By.id("password")).sendKeys("Leaf$321");
+		driver.findElement(By.id("password")).sendKeys("Leaf@123");
 		driver.findElement(By.id("Login")).click();
 		// Click on toggle menu button from the left corner
 		Thread.sleep(3000);

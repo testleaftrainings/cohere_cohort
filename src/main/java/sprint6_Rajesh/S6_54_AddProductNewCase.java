@@ -3,8 +3,6 @@ package sprint6_Rajesh;
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -23,35 +21,32 @@ public class S6_54_AddProductNewCase extends BaseClass {
 
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-
+		Thread.sleep(2000);
 		//		Click on toggle menu button from the left corner 
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@title='App Launcher']"))).click();
-
-
 
 
 		//		Click view All 
 
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@title='Close']//following::button"))).click();
-		
 
 		//		Click on Content tab 
 
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@title='Close this window']//following::a[5]"))).click();
 
-
-
 		//		Click View All Key Deals in Key Deals 
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@data-component-id='home_topDealsContainer']//span[@class='viewAllLabel']"))).click();
-
+		WebElement viewAllButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@data-component-id='home_topDealsContainer']//span[@class='viewAllLabel']")));
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();",viewAllButton);
+		viewAllButton.click();
 
 
 		//		Click the dropdown from Opportunities and select All Opportunities 
-
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//span[text()='Recently Viewed'])[1]"))).click();
-
-		driver.findElement(By.xpath("(//a[@role='option']/span)[1]")).click();
-
+		Thread.sleep(2000);
+		WebElement recent = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//span[text()='Recently Viewed'])[1]")));
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", recent);
+		Thread.sleep(2000);
+		WebElement recentButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[@role='option']/span)[1]")));
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", recentButton);
 
 		//		Give SRM Steels in Search Box and search 
 
@@ -60,16 +55,16 @@ public class S6_54_AddProductNewCase extends BaseClass {
 		searchBox.sendKeys(customer);
 
 		WebElement refresh = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@title='Refresh']")));
-		
-		((JavascriptExecutor) driver).executeScript("arguments[0].click();", refresh);
 
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", refresh);
 
 		//		Click on the SRM Steels under Opportunity Name 
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='"+customer+"']"))).click();
 
 
-
 		//	Click on New Case, Click inside the Contact Name and select the first contact 
+		Thread.sleep(2000);
+
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//button[@class='slds-button slds-button_neutral'])[1]"))).click();
 
 
@@ -93,9 +88,19 @@ public class S6_54_AddProductNewCase extends BaseClass {
 
 		//		Click on save 
 
-
+	
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[text()='Subject']//following::span[text()='Save']")).click();
-		WebElement toast = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//div[contains(@id,'toastDescription')]"))));
+		
+		WebElement toast = null;
+		try {
+			 toast = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(@id,'toastDescription')]")));
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+						
+			toast = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(@id,'toastDescription')]")));
+		}
 		String text = toast.getText();
 		if (text!=""||!text.isBlank()||!text.isEmpty()) {
 			Assert.assertTrue(true);

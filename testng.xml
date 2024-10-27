@@ -14,34 +14,35 @@
 
 	<!-- Gokul TestCase -->
 
-
-	<!-- Rajesh TestCase -->
-	<!-- browser chrome edge firefox mode: true: remote false: normal -->
-	<test thread-count="5" name="sprint6_Rajesh">
-		<parameter name="mode" value="true" />
-		<parameter name="browser" value="edge" />
-		<parameter name="userName" value="gokul.sekar@testleaf.com" />
-		<parameter name="password" value="Leaf@123" />
+	<!-- Rajeev TestCase -->
+	<!-- browser chrome edge firefox mode: true= remote false=normal -->
+	<test thread-count="5" name="sprint6_Rajeev">
 		<classes>
-			<class name="sprint6_Test_Rajesh.S6_054_Add_Product" />
+			<class name="sprint6_Rajeev.S6_050_CreateContactForCampaign" />
 		</classes>
-	</test> <!-- Test2 -->
-
-	<!-- Rajesh TestCase -->
+	</test> <!-- Test3 -->
 
 	<!-- Test3 -->
 	<!-- Logeshwari TestCase -->
 	<!-- browser chrome edge firefox mode: true: remote false: normal -->
+
 	<test thread-count="5" name="sprint6_Logeshwari">
-		<parameter name="mode" value="true" />
-		<parameter name="browser" value="edge" />
-		<parameter name="userName" value="gokul.sekar@testleaf.com" />
-		<parameter name="password" value="Leaf@123" />
 		<classes>
-			<class name="sprint6_Logeshwari.S6_5_Create_Work_Type_Group" />
+			<class
+				name="sprint6_Logeshwari.S6_11_Edit_Case" />
 		</classes>
-	</test> <!-- Test3 -->
+	</test>
 
 	<!-- Logeshwari TestCase -->
+	
+	<!-- Devi TestCase -->
 
+     <test thread-count="5" name="DeviTest">
+        <classes>
+           <class name="sprint6_Devi.s6_26_Verify_Legal_Entities"/>
+        </classes>
+     </test> <!-- Test -->
+     
+     <!-- Devi TestCase -->
+     
 </suite> <!-- CombinedSuite -->

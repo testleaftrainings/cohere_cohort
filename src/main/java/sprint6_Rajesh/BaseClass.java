@@ -1,7 +1,6 @@
 package sprint6_Rajesh;
 
 import org.openqa.selenium.Platform;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -11,8 +10,6 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
@@ -74,7 +71,7 @@ public class BaseClass {
 			DesiredCapabilities edgeDC = new DesiredCapabilities();
 			edgeDC.setBrowserName("MicrosoftEdge");
 			edgeDC.setPlatform(Platform.LINUX);
-			edgeDC.setCapability(ChromeOptions.CAPABILITY, edgeOptions);
+			edgeDC.setCapability(EdgeOptions.CAPABILITY, edgeOptions);
 
 			driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), edgeDC);
 			break;

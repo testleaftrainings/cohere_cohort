@@ -3,12 +3,17 @@ package sprint6_Logeshwari;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 
 public class S6_9_Work_Type_Group_SortByName {
@@ -16,13 +21,17 @@ public class S6_9_Work_Type_Group_SortByName {
     WebDriverWait wait;
 
     @Test
-    public void workTypeGroup(){
+    public void workTypeGroup() throws MalformedURLException {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
-        driver = new ChromeDriver(options);
+        DesiredCapabilities dc = new DesiredCapabilities();
+        dc.setBrowserName("MicrosoftEdge");
+        dc.setPlatform(Platform.LINUX);
+        RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.48.160:4444/wd/hub"), dc);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-        wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+
         // 1. Login to https://login.salesforce.com
         driver.get("https://login.salesforce.com/");
         driver.findElement(By.id("username")).sendKeys("gokul.sekar@testleaf.com");
@@ -30,6 +39,7 @@ public class S6_9_Work_Type_Group_SortByName {
         driver.findElement(By.id("Login")).click();
 
         // 2. Click on the toggle menu button from the left corner
+        
         driver.findElement(By.xpath("//button[@title='App Launcher']/div[1]")).click();
 
         // 3. Click View All and click Work Type Groups from App Launcher
