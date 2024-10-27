@@ -6,4 +6,10 @@
       <class name="sprint6_Devi.s6_26_Verify_Legal_Entities"/>
     </classes>
   </test> <!-- Test -->
+  
+  <test thread-count="5" name="DeviNBATest">
+		<classes>
+			<class name="sprint6_Devi.nba_assessment" />
+		</classes>
+	</test>
 </suite> <!-- Suite -->
