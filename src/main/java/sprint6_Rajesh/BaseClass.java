@@ -23,6 +23,7 @@ public class BaseClass {
 		case "chrome":
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.addArguments("--disable-notifications");
+			chromeOptions.addArguments("--disable-extensions") ; 
 			chromeOptions.addArguments("--disable-save-password-bubble");
 			chromeOptions.addArguments("--disable-autofill-keyboard-accessory-view[8]");
 			chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
