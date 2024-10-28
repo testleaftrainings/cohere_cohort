@@ -18,7 +18,7 @@ public class NBATest extends BaseClass {
 	public NBATest(RemoteWebDriver driver) {
 		this.driver = driver;
 	}
-	public void verifyExp() {
+	public void verifyExp() throws InterruptedException {
 		driver.get("https://www.nba.com/stats");
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -65,12 +65,12 @@ public class NBATest extends BaseClass {
 
 
 		//		Click on the player name with lowest age
-
+		Thread.sleep(3000);
 		List<WebElement> playerAgeEle = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//table[@class='Crom_table__p1iZz']//following::tr//td[4]")));
 		List<Integer> playerAge = getAllText(playerAgeEle);
 
 		Integer min = Collections.min(playerAge);
-		int poistion = playerAge.indexOf(min);
+		int poistion = playerAge.indexOf(min)+1;
 
 		//		Click on the Profile
 
@@ -88,18 +88,20 @@ public class NBATest extends BaseClass {
 		Assert.assertTrue(plaExp.equalsIgnoreCase("1 Year"));
 
 	}
-	public  List<Integer> getAllText(List<WebElement> rawNameListEle) {
+	public  List<Integer> getAllText(List<WebElement> rawNameListEle) throws InterruptedException {
 
 		List<Integer> namesList = new ArrayList<Integer>();
 		for (WebElement element : rawNameListEle) {
-			String text = element.getText();
-			namesList.add(Integer.parseInt(text));  
+			try {
+				String text = element.getText();
+				namesList.add(Integer.parseInt(text));
+			} catch (NumberFormatException e) {
+
+			}  
 		}
 		return namesList;
 	}
-	private boolean adsMethod(RemoteWebDriver driver,WebDriverWait wait) {
-
-
+	private void adsMethod(RemoteWebDriver driver,WebDriverWait wait) {
 
 		try {
 			WebElement ad = wait.until(ExpectedConditions.visibilityOfElementLocated(
@@ -113,15 +115,13 @@ public class NBATest extends BaseClass {
 				closeButton.click();
 			}
 		} catch (Exception e1) {
-			// TODO Auto-generated catch block
-			return true;
+			
+			
 		}
-
-
 
 		try {
 			WebElement ad2 = wait.until(ExpectedConditions.visibilityOfElementLocated(
-									By.xpath("//div[text()='Enter your email to create an NBA ID']//following::button[1]")
+					By.xpath("//div[text()='Enter your email to create an NBA ID']//following::button[1]")
 					));
 			boolean displayed1 = ad2.isDisplayed();
 
@@ -132,16 +132,10 @@ public class NBATest extends BaseClass {
 				closeButton1.click();
 			}
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			return true;
+						
 		}
-		
-		return true;
 
-
-
-
-
+	
 	}
 
 
