@@ -70,7 +70,7 @@ public class NBATest extends BaseClass {
 		List<Integer> playerAge = getAllText(playerAgeEle);
 
 		Integer min = Collections.min(playerAge);
-		int poistion = playerAge.indexOf(min)+1;
+		int poistion = playerAge.indexOf(min);
 
 		//		Click on the Profile
 
