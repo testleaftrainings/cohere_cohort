@@ -10,6 +10,7 @@ import sprint6_Rajesh.*;
 
 
 public class S6_013_Create_Case_Without_Mandatory_Fields extends BaseClass{
+	
 	@Parameters({"browser","mode"})
 	@BeforeMethod
 	public void browser(String browser,String mode) throws MalformedURLException {
@@ -19,11 +20,10 @@ public class S6_013_Create_Case_Without_Mandatory_Fields extends BaseClass{
 		}else {
 			browserInitiate(browser);
 		}
-
 	}
 
 	@Parameters({"userName","password"})
-	@Test (retryAnalyzer = RetryEvent.class)
+	@Test (retryAnalyzer = RetryEvent.class,enabled = true)
 
 	public void testCase_S6_013_Create_Case_Without_Mandatory_Fields(String userName,String password) throws InterruptedException {
 

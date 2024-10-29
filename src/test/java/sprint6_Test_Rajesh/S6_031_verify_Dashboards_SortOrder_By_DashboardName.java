@@ -22,7 +22,7 @@ public class S6_031_verify_Dashboards_SortOrder_By_DashboardName  extends BaseCl
 	}
 	
 	@Parameters({"userName","password"})
-	@Test(retryAnalyzer = RetryEvent.class)
+	@Test(retryAnalyzer = RetryEvent.class,enabled = true)
 	public void testCase_S6_031_verify_Dashboards_SortOrder_By_DashboardName(String userName,String password) throws InterruptedException {
 
 

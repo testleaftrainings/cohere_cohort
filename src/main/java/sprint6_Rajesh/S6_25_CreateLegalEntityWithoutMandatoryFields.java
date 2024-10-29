@@ -39,7 +39,7 @@ public class S6_25_CreateLegalEntityWithoutMandatoryFields extends BaseClass {
 
 		//		Click on the Dropdown icon in the legal Entities tab
 		Thread.sleep(5000);
-		WebElement legalEntites = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//button[@title='App Launcher']//following::a[@role='button'][1]"))));
+		WebElement legalEntites = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//a[@title='Legal Entities'][1]//following::a[1]"))));
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();",legalEntites);
 
 

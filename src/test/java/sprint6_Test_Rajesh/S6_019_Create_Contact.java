@@ -23,7 +23,7 @@ public class S6_019_Create_Contact extends BaseClass{
 	}
 	
 	@Parameters({"userName","password"})
-	@Test(retryAnalyzer = RetryEvent.class)
+	@Test(retryAnalyzer = RetryEvent.class,enabled = true)
 	public void testCase_S6_019_Create_Contact(String userName,String password) throws InterruptedException {
 		
 		SaleforceLogin login = new SaleforceLogin(driver);  

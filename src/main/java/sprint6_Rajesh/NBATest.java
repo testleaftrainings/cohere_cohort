@@ -35,7 +35,7 @@ public class NBATest extends BaseClass {
 
 
 		//		Choose 'Season' as '2023-24'
-		adsMethod(driver, wait);
+		adsMethod(driver);
 
 		WebElement season = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("(//div[@class='nba-stats-primary-split-block']//label/div)[1]//select"))));
 
@@ -48,24 +48,20 @@ public class NBATest extends BaseClass {
 
 		new Select(seasonType).selectByValue("IST");
 
-
-
-
 		//		Choose 'Per Mode' as 'Per Game'
 
 		WebElement perMode = driver.findElement(By.xpath("(//div[@class='nba-stats-primary-split-block']//label/div)[3]//Select"));
 
 		new Select(perMode).selectByValue("PerGame");
 
-
 		//		Choose 'Season Segment' as 'Last Game'
 		WebElement seasonSegment = driver.findElement(By.xpath("(//div[@class='nba-stats-primary-split-block']//label/div)[4]//Select"));
-
 		new Select(seasonSegment).selectByVisibleText("Last Game");
 
 
+
 		//		Click on the player name with lowest age
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		List<WebElement> playerAgeEle = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//table[@class='Crom_table__p1iZz']//following::tr//td[4]")));
 		List<Integer> playerAge = getAllText(playerAgeEle);
 
@@ -76,7 +72,13 @@ public class NBATest extends BaseClass {
 
 		WebElement profile = driver.findElement(By.xpath("(//table[@class='Crom_table__p1iZz']//following::tr//td[2])["+poistion+"]"));
 
-		wait.until(ExpectedConditions.elementToBeClickable(profile)).click();
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(profile)).click();
+		} catch (Exception e) {
+
+			adsMethod(driver);
+			wait.until(ExpectedConditions.elementToBeClickable(profile)).click();
+		}
 
 
 		//		Get the Experience of the player
@@ -101,11 +103,11 @@ public class NBATest extends BaseClass {
 		}
 		return namesList;
 	}
-	private void adsMethod(RemoteWebDriver driver,WebDriverWait wait) {
-
+	private void adsMethod(RemoteWebDriver driver) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		try {
 			WebElement ad = wait.until(ExpectedConditions.visibilityOfElementLocated(
-					By.xpath("//form[@id='bx-form-2752274-step-1']")
+					By.xpath("(//div[@class='bx-wrap']//button)[3]")
 					));
 			boolean displayed = ad.isDisplayed();
 			if (displayed) {
@@ -115,8 +117,8 @@ public class NBATest extends BaseClass {
 				closeButton.click();
 			}
 		} catch (Exception e1) {
-			
-			
+
+
 		}
 
 		try {
@@ -132,10 +134,10 @@ public class NBATest extends BaseClass {
 				closeButton1.click();
 			}
 		} catch (Exception e) {
-						
+
 		}
 
-	
+
 	}
 
 

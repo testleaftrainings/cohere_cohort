@@ -22,7 +22,7 @@ public class S6_037_VerifyAppStoreLoadedToDownloadSalesForceAStory  extends Base
 	}
 	
 	@Parameters({"userName","password"})
-	@Test(retryAnalyzer = RetryEvent.class)
+	@Test(retryAnalyzer = RetryEvent.class,enabled = true)
 	public void testCase_S6_037_VerifyAppStoreLoadedToDownloadSalesForceAStory(String userName,String password) throws InterruptedException {
 
 	

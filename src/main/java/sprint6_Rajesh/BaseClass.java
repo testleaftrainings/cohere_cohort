@@ -13,12 +13,14 @@ import org.testng.annotations.AfterMethod;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BaseClass {
 	public RemoteWebDriver driver = null;
 
 
-	public void browserInitiate(String browser) {
+	public  void browserInitiate(String browser) {
 		switch (browser.toLowerCase()) {
 		case "chrome":
 			ChromeOptions chromeOptions = new ChromeOptions();
@@ -27,6 +29,12 @@ public class BaseClass {
 			chromeOptions.addArguments("--disable-save-password-bubble");
 			chromeOptions.addArguments("--disable-autofill-keyboard-accessory-view[8]");
 			chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+			// Set preferences to disable the password manager
+			Map<String, Object> prefs = new HashMap<>();
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			chromeOptions.setExperimentalOption("prefs", prefs);
+
 			driver = new ChromeDriver(chromeOptions);
 			break;
 
@@ -50,7 +58,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(45));
 	}
 
-	public void gridExecution(String browser) throws MalformedURLException {
+	public  void gridExecution(String browser) throws MalformedURLException {
 
 		switch (browser.toLowerCase()) {
 		case "chrome":
@@ -94,11 +102,11 @@ public class BaseClass {
 
 
 	}
-
 	@AfterMethod
 	public void tearDown() {
 		if (driver != null) {
 			driver.quit();
 		}
 	}
+
 }

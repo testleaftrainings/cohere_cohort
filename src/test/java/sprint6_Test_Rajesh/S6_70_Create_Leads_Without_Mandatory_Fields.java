@@ -25,7 +25,7 @@ public class S6_70_Create_Leads_Without_Mandatory_Fields extends BaseClass{
 	}
 	
 	@Parameters({"userName","password"})
-	@Test (retryAnalyzer = RetryEvent.class)
+	@Test (retryAnalyzer = RetryEvent.class,enabled = true)
 	public void testCase_S6_70_Create_Leads_Without_Mandatory_Fields(String userName,String password) throws InterruptedException {
 
 		SaleforceLogin login = new SaleforceLogin(driver);  

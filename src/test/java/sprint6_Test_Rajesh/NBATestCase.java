@@ -12,7 +12,8 @@ import sprint6_Rajesh.NBATest;
 import sprint6_Rajesh.RetryEvent;
 
 
-public class NBATestCase extends BaseClass{
+public class NBATestCase extends BaseClass {
+	
 	@Parameters({"browser","mode"})
 	@BeforeMethod
 	public void browser(String browser,String mode) throws MalformedURLException {
@@ -23,11 +24,9 @@ public class NBATestCase extends BaseClass{
 			browserInitiate(browser);
 		}
 	}
-
 	
-	@Test (retryAnalyzer = RetryEvent.class)
+	@Test(retryAnalyzer = RetryEvent.class,enabled = true)
 	public void testCase_NBA() throws InterruptedException, IOException {
-		
 		NBATest nB = new NBATest(driver);
 		nB.verifyExp();
 

@@ -22,7 +22,7 @@ public class S6_053_AddProductWithOpportunity  extends BaseClass {
 	}
 	
 	@Parameters({"userName","password"})
-	@Test(retryAnalyzer = RetryEvent.class)
+	@Test(retryAnalyzer = RetryEvent.class,enabled = true)
 	public void testCase_S6_053_verify_AddProductWithOpportunity(String userName,String password) throws InterruptedException {
 
 		SaleforceLogin login = new SaleforceLogin(driver);  

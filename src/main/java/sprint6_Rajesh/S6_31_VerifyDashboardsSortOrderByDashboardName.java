@@ -5,8 +5,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -46,33 +48,45 @@ public class S6_31_VerifyDashboardsSortOrderByDashboardName extends BaseClass {
 		dashboarEle.click();
 
 		//		Click the sort arrow in the Dashboard Name.
-		Thread.sleep(2000);
-
-		List<WebElement> rawNameListEle= driver.findElements(By.xpath("//table//following::tr/th"));
-		List<String> rawNameList = getAllText(rawNameListEle);
-
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("(//div[@title='New Dashboard']//following::thead//a)[1]//span[@title='Dashboard Name']")))).click();
 
-		Thread.sleep(5000);
-		List<WebElement> sortNameListEle= driver.findElements(By.xpath("//table//following::tr/th"));
+		List<WebElement> rawNameListEle= wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//table//following::tr//th")));
+		WebElement findElement = driver.findElement(By.xpath("(//table//following::td[@data-label='Description'][1])"));
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", findElement);
+		int prev =0;
+		int k =1;
 
+		while (true) {
+
+			do {
+				findElement.sendKeys(Keys.ARROW_DOWN);
+				k++;
+			}
+			while(k<rawNameListEle.size());
+
+			Thread.sleep(2000);
+
+			rawNameListEle= wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//table//following::tr//th")));
+			if(rawNameListEle.size()!=prev) {
+				prev=rawNameListEle.size();
+
+			}else {
+				break;
+			}
+
+		}
+		List<String> rawNameList = getAllText(rawNameListEle);
 
 		//		Verify the Dashboard displayed in ascending order by Dashboard name.
 
-		List<String> sortNameList = getAllText(sortNameListEle);
+		List<String> copyList = new ArrayList<>(rawNameList);
+		Collections.sort(copyList,String.CASE_INSENSITIVE_ORDER);
 
+		if (rawNameList.equals(copyList)) {
+			Assert.assertTrue(true);
 
-		if (!rawNameList.equals(sortNameList)) {
-			Collections.sort(rawNameList,String.CASE_INSENSITIVE_ORDER);
-
-			if (rawNameList.equals(sortNameList)) {
-				org.testng.Assert.assertTrue(true);
-
-			}else {
-				org.testng.Assert.assertTrue(false);
-			}
-		} else {
-			org.testng.Assert.assertTrue(false);
+		}else {
+			Assert.assertTrue(false);
 		}
 
 	}
@@ -82,7 +96,7 @@ public class S6_31_VerifyDashboardsSortOrderByDashboardName extends BaseClass {
 
 		List<String> namesList = new ArrayList<String>();
 		for (WebElement element : rawNameListEle) {
-			namesList.add(element.getText());  // Get text and add to namesList
+			namesList.add(element.getText());  
 		}
 		return namesList;
 	}

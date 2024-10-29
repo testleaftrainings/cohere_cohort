@@ -26,7 +26,7 @@ public class S6_71_Create_New_Contract extends BaseClass{
 	}
 
 	@Parameters({"userName","password"})
-	@Test (retryAnalyzer = RetryEvent.class,groups = "createContract")
+	@Test (retryAnalyzer = RetryEvent.class,groups = "createContract",enabled = true)
 	public void testCase_S6_71_Create_New_Contract(String userName,String password) throws InterruptedException, IOException {
 
 		SaleforceLogin login = new SaleforceLogin(driver);  

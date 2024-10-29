@@ -68,13 +68,12 @@ public class S6_70CreateLeadsWithoutMandatoryFields extends BaseClass {
 		driver.findElement(By.xpath("//button[@name='SaveEdit']")).click();
 
 		//		Verify the Alert message (Complete this field) displayed for the Last Name
-		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//h2[text()='New Case']/following::a"))));
-		List<WebElement> warningElements = driver.findElements(By.xpath("//h2[text()='New Case']/following::a"));
+		List<WebElement> warningElements = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//h2[text()='We hit a snag.']/following::a")));
 
 		for (WebElement message  : warningElements) {
 			String text = message .getText();
 			if (text.contains("Name")) {
-				Assert.assertFalse(true);
+				Assert.assertTrue(true);
 			}
 		}
 

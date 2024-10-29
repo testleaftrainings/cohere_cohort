@@ -26,7 +26,7 @@ public class S6_90_Vrfy_Newly_Created extends BaseClass{
 	}
 
 	@Parameters({"userName","password"})
-	@Test (retryAnalyzer = RetryEvent.class)
+	@Test (retryAnalyzer = RetryEvent.class,enabled = true)
 	public void testCase_S6_90_Verify_Newly_Created(String userName,String password) throws InterruptedException, IOException {
 
 		SaleforceLogin login = new SaleforceLogin(driver);  

@@ -26,7 +26,7 @@ public class S6_89_Classic_NewAccount extends BaseClass{
 	}
 
 	@Parameters({"userName","password"})
-	@Test (retryAnalyzer = RetryEvent.class)
+	@Test (retryAnalyzer = RetryEvent.class,enabled = true)
 	public void testCase_S6_89_SalesForce_Classic_NewAccount(String userName,String password) throws InterruptedException, IOException {
 
 		SaleforceLogin login = new SaleforceLogin(driver);  
