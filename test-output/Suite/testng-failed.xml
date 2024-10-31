@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="sprint6_Jira_Rajesh(failed)">
+    <parameter name="mode" value="false"/>
+    <parameter name="password" value="Leaf@123"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="userName" value="gokul.sekar@testleaf.com"/>
+    <classes>
+      <class name="sprint6_Test_Rajesh.S6_70_Create_Leads_Without_Mandatory_Fields">
+        <methods>
+          <include name="testCase_S6_70_Create_Leads_Without_Mandatory_Fields" invocation-numbers="0 0"/>
+          <include name="tearDown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- sprint6_Test_Rajesh.S6_70_Create_Leads_Without_Mandatory_Fields -->
+      <class name="sprint6_Test_Rajesh.S6_025_Create_LegalEntity_Without_MandatoryFields">
+        <methods>
+          <include name="testCase_S6_025_createLegalEntityWithoutMandatoryFields" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- sprint6_Test_Rajesh.S6_025_Create_LegalEntity_Without_MandatoryFields -->
+      <class name="sprint6_Test_Rajesh.S6_053_AddProductWithOpportunity">
+        <methods>
+          <include name="testCase_S6_053_verify_AddProductWithOpportunity" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- sprint6_Test_Rajesh.S6_053_AddProductWithOpportunity -->
+    </classes>
+  </test> <!-- sprint6_Jira_Rajesh(failed) -->
+</suite> <!-- Failed suite [Suite] -->
