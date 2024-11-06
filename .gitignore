@@ -1,8 +1,9 @@
+### Test Output Directory ###
+test-output/
 
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -37,4 +38,8 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Target Directory ###
 /target/
+
+
