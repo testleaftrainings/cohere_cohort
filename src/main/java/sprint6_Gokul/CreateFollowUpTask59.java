@@ -36,7 +36,7 @@ public class CreateFollowUpTask59 {
 		driver.findElement(By.xpath("(//li//a[@title='Create Follow-Up Task'])[2]")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//span[@class='pillText']")).click();
-		Thread.sleep(5000);
+		Thread.sleep(5000); 
 		driver.findElement(By.xpath("//label[text()='Subject']//following::div//input")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//div//lightning-base-combobox-item[@data-value='Call']")).click();
@@ -88,8 +88,8 @@ public class CreateFollowUpTask59 {
 		driver.findElement(By.xpath("//button[@title=\"Save\"]//span[text()='Save']")).click();
 	}
 
-	@AfterMethod
-	public void close() {
-		driver.quit();
-	}
+//	@AfterMethod
+//	public void close() {
+//		driver.quit();
+//	}
 }
