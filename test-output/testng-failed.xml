@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sprint6_Gokul.PostedDeleted_82">
+      <class name="sprint6_Gokul.EditTask60">
         <methods>
-          <include name="postedDeletedMethod"/>
+          <include name="editTaskMethod"/>
         </methods>
-      </class> <!-- sprint6_Gokul.PostedDeleted_82 -->
+      </class> <!-- sprint6_Gokul.EditTask60 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
