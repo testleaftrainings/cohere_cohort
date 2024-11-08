@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sprint6_Gokul.ClassicNewAccount81">
+      <class name="sprint6_Gokul.PostedDeleted_82">
         <methods>
-          <include name="close"/>
-          <include name="newAccountMethod"/>
+          <include name="postedDeletedMethod"/>
         </methods>
-      </class> <!-- sprint6_Gokul.ClassicNewAccount81 -->
+      </class> <!-- sprint6_Gokul.PostedDeleted_82 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-06T03:03:42 IST" name="Default suite" finished-at="2024-11-06T03:04:07 IST" duration-ms="24153">
+  <suite started-at="2024-11-09T01:17:56 IST" name="Default suite" finished-at="2024-11-09T01:18:39 IST" duration-ms="43184">
     <groups>
     </groups>
-    <test started-at="2024-11-06T03:03:42 IST" name="Default test" finished-at="2024-11-06T03:04:07 IST" duration-ms="24153">
-      <class name="sprint6_Gokul.ClassicNewAccount81">
-        <test-method signature="newAccountMethod()[pri:0, instance:sprint6_Gokul.ClassicNewAccount81@f74e835]" started-at="2024-11-06T03:03:42 IST" name="newAccountMethod" finished-at="2024-11-06T03:04:06 IST" duration-ms="23736" status="PASS">
+    <test started-at="2024-11-09T01:17:56 IST" name="Default test" finished-at="2024-11-09T01:18:39 IST" duration-ms="43184">
+      <class name="sprint6_Gokul.PostedDeleted_82">
+        <test-method signature="postedDeletedMethod()[pri:0, instance:sprint6_Gokul.PostedDeleted_82@46f699d5]" started-at="2024-11-09T01:17:56 IST" name="postedDeletedMethod" finished-at="2024-11-09T01:18:39 IST" duration-ms="43149" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newAccountMethod -->
-        <test-method is-config="true" signature="close()[pri:0, instance:sprint6_Gokul.ClassicNewAccount81@f74e835]" started-at="2024-11-06T03:04:06 IST" name="close" finished-at="2024-11-06T03:04:07 IST" duration-ms="394" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- sprint6_Gokul.ClassicNewAccount81 -->
+        </test-method> <!-- postedDeletedMethod -->
+      </class> <!-- sprint6_Gokul.PostedDeleted_82 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
