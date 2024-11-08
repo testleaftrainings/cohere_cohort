@@ -2,15 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-09T01:17:56 IST" name="Default suite" finished-at="2024-11-09T01:18:39 IST" duration-ms="43184">
+  <suite started-at="2024-11-09T02:19:04 IST" name="Default suite" finished-at="2024-11-09T02:19:47 IST" duration-ms="42312">
     <groups>
     </groups>
-    <test started-at="2024-11-09T01:17:56 IST" name="Default test" finished-at="2024-11-09T01:18:39 IST" duration-ms="43184">
+    <test started-at="2024-11-09T02:19:04 IST" name="Default test" finished-at="2024-11-09T02:19:47 IST" duration-ms="42312">
       <class name="sprint6_Gokul.PostedDeleted_82">
-        <test-method signature="postedDeletedMethod()[pri:0, instance:sprint6_Gokul.PostedDeleted_82@46f699d5]" started-at="2024-11-09T01:17:56 IST" name="postedDeletedMethod" finished-at="2024-11-09T01:18:39 IST" duration-ms="43149" status="PASS">
+        <test-method signature="postedDeletedMethod()[pri:0, instance:sprint6_Gokul.PostedDeleted_82@1992eaf4]" started-at="2024-11-09T02:19:04 IST" name="postedDeletedMethod" finished-at="2024-11-09T02:19:46 IST" duration-ms="41917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postedDeletedMethod -->
+        <test-method is-config="true" signature="close()[pri:0, instance:sprint6_Gokul.PostedDeleted_82@1992eaf4]" started-at="2024-11-09T02:19:46 IST" name="close" finished-at="2024-11-09T02:19:47 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- sprint6_Gokul.PostedDeleted_82 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

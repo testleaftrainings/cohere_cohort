@@ -7,6 +7,7 @@ import java.util.Set;
 import org.bouncycastle.util.Exceptions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class PostedDeleted_82 {
@@ -92,5 +93,10 @@ public class PostedDeleted_82 {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//div//input[@value='OK']")).click();
 	}
+	@AfterMethod
+	public void close() {
+		driver.quit();
+	}
+
 
 }
